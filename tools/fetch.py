@@ -1,5 +1,4 @@
-"""Fetcher tool for downloading SOTU raw HTML documents from UCSB.
-"""
+"""Fetcher tool for downloading SOTU raw HTML documents from UCSB."""
 
 import argparse
 import asyncio
@@ -20,7 +19,7 @@ def url_to_filename(url: str) -> str:
     - str: Safe filename.
     """
     parsed = urlparse(url)
-    
+
     # Check if this is a query-based URL (e.g. pid=4102)
     query_params = parse_qs(parsed.query)
     if "pid" in query_params:
@@ -38,6 +37,7 @@ def url_to_filename(url: str) -> str:
 
     # Fallback to hash if empty/malformed
     import hashlib
+
     h = hashlib.md5(url.encode("utf-8")).hexdigest()
     return f"doc_{h}.html"
 
@@ -64,7 +64,7 @@ async def download_html_with_retry(
             "Chrome/120.0.0.0 Safari/537.36"
         )
     }
-    
+
     async with httpx.AsyncClient(
         headers=headers, follow_redirects=True, timeout=10.0
     ) as client:
@@ -81,7 +81,7 @@ async def download_html_with_retry(
                 if isinstance(e, httpx.HTTPStatusError):
                     if e.response.status_code in (403, 404):
                         raise e
-                
+
                 if attempt >= max_retries:
                     raise e
 
@@ -138,8 +138,7 @@ async def fetch_all_urls(urls: list[str], out_dir: str, delay: float = 2.0) -> N
 
 
 def main() -> None:
-    """CLI entrypoint for tools.fetch.
-    """
+    """CLI entrypoint for tools.fetch."""
     parser = argparse.ArgumentParser(
         description="Download SOTU raw HTML documents from UCSB."
     )

@@ -116,8 +116,7 @@ NEGATIVE_SLUGS = [
 
 @pytest.mark.parametrize("slug", POSITIVE_SLUGS)
 def test_is_real_sotu_accepts_real_sotu(slug: str) -> None:
-    url = BASE + slug if not slug.startswith("index.php") else BASE + slug
-    assert discover._is_real_sotu(url) is True, slug
+    assert discover._is_real_sotu(BASE + slug) is True, slug
 
 
 @pytest.mark.parametrize("slug", NEGATIVE_SLUGS)

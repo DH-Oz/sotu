@@ -1,5 +1,4 @@
-"""Tests for the SOTU fetcher tool (tools/fetch.py).
-"""
+"""Tests for the SOTU fetcher tool (tools/fetch.py)."""
 
 import os
 from unittest.mock import AsyncMock, patch
@@ -63,13 +62,15 @@ async def test_fetch_url_success(tmp_path: pytest.TempPathFactory) -> None:
 async def test_fetch_url_retry_and_fail() -> None:
     """Assert that fetch_url retries on HTTP errors and eventually fails or succeeds."""
     url = "https://www.presidency.ucsb.edu/documents/fail-speech"
-    
+
     # Mock HTTP errors then a success, or just continuous failure
-    route = respx.get(url).mock(side_effect=[
-        Response(500),
-        Response(502),
-        Response(200, text="<html>Finally recovered</html>")
-    ])
+    route = respx.get(url).mock(
+        side_effect=[
+            Response(500),
+            Response(502),
+            Response(200, text="<html>Finally recovered</html>"),
+        ]
+    )
 
     # We mock asyncio.sleep so the test runs instantly despite retries/backoffs
     with patch("asyncio.sleep", new_callable=AsyncMock) as mock_sleep:
@@ -91,9 +92,10 @@ async def test_rate_limiting_delay() -> None:
     ]
 
     # We mock fetch_url to not actually hit network/disk but just record calls
-    with patch("tools.fetch.fetch_url", new_callable=AsyncMock) as mock_fetch_url, \
-         patch("asyncio.sleep", new_callable=AsyncMock) as mock_sleep:
-        
+    with (
+        patch("tools.fetch.fetch_url", new_callable=AsyncMock) as mock_fetch_url,
+        patch("asyncio.sleep", new_callable=AsyncMock) as mock_sleep,
+    ):
         mock_fetch_url.return_value = True
 
         await fetch.fetch_all_urls(urls, "/tmp/dummy", delay=2.0)

@@ -1,5 +1,4 @@
-"""Parser tool for SOTU HTML documents.
-"""
+"""Parser tool for SOTU HTML documents."""
 
 import re
 
@@ -49,8 +48,6 @@ def parse_speech_html(html: str) -> str:
     else:
         # Fallback if no <p> tags are present
         text = clean_text(container.text(deep=True))
-        paragraphs = [
-            line.strip() for line in text.splitlines() if line.strip()
-        ]
+        paragraphs = [line.strip() for line in text.splitlines() if line.strip()]
 
     return "\n\n".join(paragraphs)

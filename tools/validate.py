@@ -1,5 +1,4 @@
-"""Validation tool for verifying SOTU package schema, coverage, and determinism.
-"""
+"""Validation tool for verifying SOTU package schema, coverage, and determinism."""
 
 import hashlib
 import json
@@ -84,14 +83,12 @@ def validate_coverage(df: pd.DataFrame) -> None:
         )
     if max_year < 2025:
         raise ValueError(
-            f"Coverage violation: Maximum year is {max_year}, "
-            "expected at least 2025"
+            f"Coverage violation: Maximum year is {max_year}, expected at least 2025"
         )
 
     if len(df) < 230:
         raise ValueError(
-            f"Coverage violation: Total addresses count is {len(df)}, "
-            "expected >= 230"
+            f"Coverage violation: Total addresses count is {len(df)}, expected >= 230"
         )
 
 
@@ -146,6 +143,7 @@ def validate_determinism(
         # 2. Validate raw HTML hash (if the raw html folder is present)
         if os.path.exists(raw_html_dir):
             from urllib.parse import parse_qs, urlparse
+
             # Try to map URL to filename exactly as fetch.py does
             parsed = urlparse(source_url)
             query_params = parse_qs(parsed.query)
@@ -171,11 +169,11 @@ def validate_determinism(
 
 
 def main() -> None:
-    """CLI entrypoint for tools.validate.
-    """
+    """CLI entrypoint for tools.validate."""
     if not os.path.exists(METADATA_CSV):
         print(f"Error: Metadata CSV not found at {METADATA_CSV}")
         import sys
+
         sys.exit(1)
 
     df = pd.read_csv(METADATA_CSV)
@@ -190,6 +188,7 @@ def main() -> None:
     except Exception as e:
         print(f"Validation FAILED: {e}")
         import sys
+
         sys.exit(1)
 
 

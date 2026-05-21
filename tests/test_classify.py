@@ -1,5 +1,4 @@
-"""Tests for SOTU classification and metadata joining (tools/classify.py).
-"""
+"""Tests for SOTU classification and metadata joining (tools/classify.py)."""
 
 import pytest
 
@@ -23,29 +22,29 @@ def test_classify_sotu_types() -> None:
 
 
 def test_classify_sotu_type_from_url_slug() -> None:
-    """A "delivered" slug marks the row spoken; sibling reclassification happens at build time.
+    """A "delivered" slug marks the row spoken; siblings flip at build time.
 
     classify.get_sotu_type only treats "delivered" as unambiguous spoken;
     everything else falls back to the year heuristic + overrides. UCSB
     uses "annual-message-the-congress-the-state-the-union" as a generic
     tag for both delivered and written-only modern SOTUs, so the slug
-    alone cannot decide written vs spoken — the build pipeline's group
+    alone cannot decide written vs spoken - the build pipeline's group
     post-pass handles that.
     """
     base = "https://www.presidency.ucsb.edu/documents/"
+    carter_1978_delivered = (
+        base + "the-state-the-union-address-delivered-"
+        "before-joint-session-the-congress-1"
+    )
+    carter_1978_written = base + "the-state-the-union-annual-message-the-congress-2"
+    nixon_1973_overview = "https://www.presidency.ucsb.edu/ws/index.php?pid=3996"
+
     # Carter 1978 spoken delivery
-    assert classify.get_sotu_type(
-        1978,
-        url=base + "the-state-the-union-address-delivered-before-joint-session-the-congress-1",
-    ) == "spoken"
-    # Modern "annual-message" tag: falls through to year heuristic (1978 → spoken)
-    assert classify.get_sotu_type(
-        1978, url=base + "the-state-the-union-annual-message-the-congress-2"
-    ) == "spoken"
-    # Nixon 1973 pid URL — no slug info; falls through to override (written)
-    assert classify.get_sotu_type(
-        1973, url="https://www.presidency.ucsb.edu/ws/index.php?pid=3996"
-    ) == "written"
+    assert classify.get_sotu_type(1978, url=carter_1978_delivered) == "spoken"
+    # Modern "annual-message" tag: falls through to year heuristic
+    assert classify.get_sotu_type(1978, url=carter_1978_written) == "spoken"
+    # Nixon 1973 pid URL - no slug info; falls through to override (written)
+    assert classify.get_sotu_type(1973, url=nixon_1973_overview) == "written"
 
 
 def test_is_canonical_sotu() -> None:
@@ -54,7 +53,8 @@ def test_is_canonical_sotu() -> None:
     # Canonical SOTUs
     assert classify.is_canonical_sotu(base + "documents/state-the-union-address")
     assert classify.is_canonical_sotu(base + "documents/annual-message-the-congress")
-    assert classify.is_canonical_sotu(base + "ws/index.php?pid=3996")  # Nixon 1973 overview
+    # Nixon 1973 overview
+    assert classify.is_canonical_sotu(base + "ws/index.php?pid=3996")
     # Auxiliaries
     assert not classify.is_canonical_sotu(
         base + "documents/radio-address-summarizing-the-state-the-union-message"

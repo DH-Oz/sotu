@@ -9,7 +9,7 @@ def _manifest_path() -> pathlib.Path:
 
 
 def test_manifest_has_no_wall_clock_fields() -> None:
-    """Build determinism: manifest must not embed timestamps or duplicate version strings."""
+    """Build determinism: manifest contains no timestamps or version strings."""
     manifest = json.loads(_manifest_path().read_text(encoding="utf-8"))
     assert "build_date" not in manifest
     assert "package_version" not in manifest

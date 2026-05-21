@@ -1,5 +1,4 @@
-"""Tests for SOTU document parser tool (tools/parse.py).
-"""
+"""Tests for SOTU document parser tool (tools/parse.py)."""
 
 import os
 

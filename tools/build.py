@@ -47,10 +47,9 @@ def parse_date(date_str: str) -> datetime.date:
 
 
 def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
-    """Extract, download, parse, and build the SOTU database.
-    """
+    """Extract, download, parse, and build the SOTU database."""
     print("Starting SOTU build process...")
-    
+
     # Ensure directories exist. Speeches dir is cleared so stale files from
     # earlier builds (e.g. pre-normalisation Van Buren names, or addresses
     # subsequently excluded by _is_real_sotu) can't survive a rebuild.
@@ -88,10 +87,13 @@ def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
     cmd = [
         sys.executable,
         os.path.join(BASE_DIR, "tools", "fetch.py"),
-        "--urls-file", urls_file,
-        "--out-dir", RAW_DIR,
-        "--delay", str(delay),
-        "--full-scrape"
+        "--urls-file",
+        urls_file,
+        "--out-dir",
+        RAW_DIR,
+        "--delay",
+        str(delay),
+        "--full-scrape",
     ]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
@@ -102,10 +104,11 @@ def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
     # 4. Parse and classify each fetched speech
     print("Parsing and classifying speeches...")
     parsed_records: list[dict[str, Any]] = []
-    
+
     # We will map each URL to its HTML filename to parse it
     for idx, url in enumerate(urls):
         from tools.fetch import url_to_filename
+
         filename = url_to_filename(url)
         filepath = os.path.join(RAW_DIR, filename)
 
@@ -124,7 +127,7 @@ def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
 
         # Extract President and Date from HTML page
         html_parser = LexborHTMLParser(html_content)
-        
+
         # Date extraction
         date_elem = html_parser.css_first(
             ".field-docs-start-date-time, .date-display-single"
@@ -141,7 +144,7 @@ def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
                 f"in {filename}: {e}. Skipping."
             )
             continue
-            
+
         year = speech_date.year
 
         # President name extraction
@@ -155,6 +158,7 @@ def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
         # E.g. "Donald J. Trump (1st Term)" -> "Donald J. Trump"
         # E.g. "Joseph R. Biden, Jr." -> "Joseph R. Biden"
         import re
+
         clean_name = pres_full_name
         clean_name = re.sub(r"\(.*?\)", "", clean_name).strip()
         clean_name = re.sub(r",?\s+Jr\.?$", "", clean_name).strip()
@@ -165,7 +169,7 @@ def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
             pres_last = "Van Buren"
         elif "Quincy Adams" in clean_name or "J.Q. Adams" in clean_name:
             pres_last = "Adams"
-        
+
         # Apply classification logic to join presidents.csv
         try:
             pres_info = classify.resolve_president(year, pres_last)
@@ -181,20 +185,22 @@ def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
         # president overrides file, then the year heuristic.
         sotu_type = classify.get_sotu_type(year, url=url, president=pres_last)
 
-        parsed_records.append({
-            "year": year,
-            "date": speech_date.isoformat(),
-            "president_id": pres_info["president_id"],
-            "president": pres_last,
-            "president_full": pres_info["president_full"],
-            "party": pres_info["party"],
-            "sotu_type": sotu_type,
-            "source_url": url,
-            "raw_html_path": os.path.relpath(filepath, BASE_DIR),
-            "text": text,
-            "word_count": len(text.split()),
-            "raw_html_sha256": validate.compute_sha256(filepath),
-        })
+        parsed_records.append(
+            {
+                "year": year,
+                "date": speech_date.isoformat(),
+                "president_id": pres_info["president_id"],
+                "president": pres_last,
+                "president_full": pres_info["president_full"],
+                "party": pres_info["party"],
+                "sotu_type": sotu_type,
+                "source_url": url,
+                "raw_html_path": os.path.relpath(filepath, BASE_DIR),
+                "text": text,
+                "word_count": len(text.split()),
+                "raw_html_sha256": validate.compute_sha256(filepath),
+            }
+        )
 
     # Sort records chronologically
     parsed_records.sort(key=lambda r: (r["date"], r["source_url"]))
@@ -323,11 +329,8 @@ def build_dataset(delay: float = 0.1, max_speeches: int | None = None) -> None:
 
 
 def main() -> None:
-    """CLI entrypoint for tools.build.
-    """
-    parser = argparse.ArgumentParser(
-        description="Build packaged SOTU dataset."
-    )
+    """CLI entrypoint for tools.build."""
+    parser = argparse.ArgumentParser(description="Build packaged SOTU dataset.")
     parser.add_argument(
         "--delay",
         type=float,

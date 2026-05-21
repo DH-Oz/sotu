@@ -1,5 +1,4 @@
-"""Classification and president metadata joining tool for SOTU corpus.
-"""
+"""Classification and president metadata joining tool for SOTU corpus."""
 
 import csv
 import os

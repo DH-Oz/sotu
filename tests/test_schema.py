@@ -6,7 +6,7 @@ import sotu
 def test_dataframe_dtypes() -> None:
     """Assert that columns in load() have correct types and non-null values."""
     df = sotu.load()
-    
+
     # Types checking
     assert pd.api.types.is_integer_dtype(df["year"])
     assert pd.api.types.is_string_dtype(df["president"])
@@ -25,11 +25,11 @@ def test_dataframe_dtypes() -> None:
 def test_full_dataframe_dtypes() -> None:
     """Assert that full columns in load(full=True) have correct types."""
     df = sotu.load(full=True)
-    
+
     assert "source_url" in df.columns
     assert "word_count" in df.columns
     assert "president_full" in df.columns
-    
+
     assert pd.api.types.is_string_dtype(df["source_url"])
     assert pd.api.types.is_integer_dtype(df["word_count"])
     assert pd.api.types.is_string_dtype(df["president_full"])

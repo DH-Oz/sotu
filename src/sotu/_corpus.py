@@ -1,5 +1,4 @@
-"""Corpus module providing NLTK-style fileids and raw speech accessors.
-"""
+"""Corpus module providing NLTK-style fileids and raw speech accessors."""
 
 import os
 

@@ -4,7 +4,7 @@ import sotu
 
 
 def test_roundtrip_text_equivalence() -> None:
-    """For every fileid, raw(fid) equals the matching row's text in the full archive."""
+    """For every fileid, raw(fid) equals the matching DataFrame row's text."""
     df_full = sotu.load(full=True, include_related=True)
     fileids = sotu.fileids()
 
@@ -19,7 +19,7 @@ def test_roundtrip_text_equivalence() -> None:
 
 
 def test_data_dir_matches_fileids() -> None:
-    """No .txt orphans on disk, no missing files. The package ships exactly fileids()."""
+    """No orphan or missing .txt files; the wheel ships exactly fileids()."""
     data_dir = pathlib.Path(sotu.__file__).parent / "data" / "speeches"
     on_disk = {p.stem for p in data_dir.glob("*.txt")}
     expected = set(sotu.fileids())
@@ -32,7 +32,7 @@ def test_data_dir_matches_fileids() -> None:
 
 
 def test_load_full_has_fileid_column_for_round_trip() -> None:
-    """load(full=True) must expose fileid so consumers can join raw() and the DataFrame."""
+    """load(full=True) exposes fileid so consumers can join raw() and the row."""
     df_full = sotu.load(full=True)
     assert "fileid" in df_full.columns
 

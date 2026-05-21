@@ -4,10 +4,10 @@ import sotu
 def test_coverage_bounds() -> None:
     """Assert that the corpus covers the full expected calendar bounds (1790-2026)."""
     assert sotu.COVERAGE == (1790, 2026)
-    
+
     df = sotu.load()
     years = df["year"].unique()
-    
+
     assert min(years) == 1790
     assert max(years) == 2026
 
@@ -16,19 +16,23 @@ def test_decade_representation() -> None:
     """Assert that every decade between 1790 and 2020 has SOTU addresses."""
     df = sotu.load()
     years = df["year"].tolist()
-    
+
     for decade_start in range(1790, 2021, 10):
-        decade_years = [
-            y for y in years if decade_start <= y < decade_start + 10
-        ]
+        decade_years = [y for y in years if decade_start <= y < decade_start + 10]
         assert len(decade_years) > 0, (
             f"No SOTUs found for decade starting {decade_start}"
         )
 
 
 EXCLUDED_FILEIDS = {
-    "1981-Reagan-1", "1989-Bush-1", "1993-Clinton-1", "2001-Bush-1",
-    "2009-Obama-1", "2017-Trump-1", "2021-Biden-1", "2025-Trump-1",
+    "1981-Reagan-1",
+    "1989-Bush-1",
+    "1993-Clinton-1",
+    "2001-Bush-1",
+    "2009-Obama-1",
+    "2017-Trump-1",
+    "2021-Biden-1",
+    "2025-Trump-1",
 }
 
 

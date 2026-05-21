@@ -1,5 +1,4 @@
-"""Tools for discovering SOTU document URLs from UCSB Presidency Project pages.
-"""
+"""Tools for discovering SOTU document URLs from UCSB Presidency Project pages."""
 
 from selectolax.lexbor import LexborHTMLParser
 
