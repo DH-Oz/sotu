@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: >-
+  This Python package only repackages the State of the Union and Annual
+  Message corpus curated by the UC Santa Barbara American Presidency
+  Project. If you use this data in academic research, please cite the
+  UCSB American Presidency Project as the primary source. A reference
+  to this packaging is appreciated but secondary.
+title: "sotu: U.S. Presidential Annual Messages and State of the Union Addresses (Python package)"
+abstract: >-
+  A Python package providing programmatic, offline access to the full
+  corpus of U.S. Presidential Annual Messages (1790-1946) and State of
+  the Union Addresses (1947-present). The text content is sourced
+  verbatim from the UC Santa Barbara American Presidency Project; this
+  package adds a pandas-DataFrame loader, NLTK-style file-id accessors,
+  SHA-256 verification manifests, and an is_sotu flag distinguishing
+  canonical SOTUs from related UCSB documents.
+authors:
+  - family-names: Alfano
+    given-names: Mark
+    email: mark.alfano@gmail.com
+    affiliation: Macquarie University
+  - family-names: Ballsun-Stanton
+    given-names: Brian
+    email: brian.ballsun-stanton@mq.edu.au
+    affiliation: Macquarie University
+license: MIT
+repository-code: "https://github.com/DH-Oz/sotu"
+type: software
+keywords:
+  - state-of-the-union
+  - digital-humanities
+  - political-science
+  - text-corpus
+  - nlp
+references:
+  - type: database
+    title: The American Presidency Project
+    authors:
+      - family-names: Peters
+        given-names: Gerhard
+      - family-names: Woolley
+        given-names: John T.
+    institution:
+      name: University of California, Santa Barbara
+    url: "https://www.presidency.ucsb.edu/"
+    notes: >-
+      The authoritative scholarly archive of presidential documents.
+      All text content in the `sotu` Python package originates here.
+      Please cite the American Presidency Project in any work that
+      relies on this corpus.
+  - type: software
+    title: "sotu: R package for State of the Union Addresses"
+    repository: "https://CRAN.R-project.org/package=sotu"
+    notes: >-
+      The R `sotu` CRAN package established the classification rules
+      (sotu_type, party assignments) that this Python package adopts.
