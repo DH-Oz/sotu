@@ -25,25 +25,18 @@ from **1790 through 2026** (and beyond).
 
 ### Installation
 
-> **Pre-release notice.** The `sotu` name on PyPI is **not yet claimed**
-> by this project (as of 2026-05-21). Do **not** `pip install sotu` from
-> PyPI until the maintainers announce the first release here; any
-> package currently published under that name is not ours. Install from
-> source until then:
->
-> ```bash
-> git clone https://github.com/DH-Oz/sotu.git
-> cd sotu
-> uv pip install .
-> ```
-
-Once the namespace is claimed and the first release is published the
-standard install will become:
-
 ```bash
 uv add sotu
 # or using standard pip:
 pip install sotu
+```
+
+Or directly from source:
+
+```bash
+git clone https://github.com/DH-Oz/sotu.git
+cd sotu
+uv pip install .
 ```
 
 ### Basic Usage

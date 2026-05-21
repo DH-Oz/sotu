@@ -18,7 +18,7 @@ resolution-markers = [
 ]
 
 [options]
-exclude-newer = "2026-05-13T09:25:13.15011147Z"
+exclude-newer = "2026-05-14T03:18:14.807979159Z"
 exclude-newer-span = "P1W"
 
 [[package]]
@@ -871,7 +871,7 @@ wheels = [
 
 [[package]]
 name = "sotu"
-version = "0.0.0"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "pandas" },

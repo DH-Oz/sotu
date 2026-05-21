@@ -5,7 +5,9 @@ All notable changes to the `sotu` package will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.1.0] - 2026-05-21
+
+First public release. Claims the `sotu` namespace on PyPI.
 
 ### Source attribution
 
@@ -15,11 +17,6 @@ https://www.presidency.ucsb.edu/). This package only repackages their
 work for programmatic access; the scholarly transcription, dating,
 classification, and verification of these documents is theirs. See
 `CITATION.cff` and the README for the recommended citation.
-
-### Notes
-- The PyPI namespace `sotu` is **not yet claimed** by this project as of
-  2026-05-21. `pip install sotu` from PyPI is not currently safe; install
-  from source until the first release is published.
 
 ### Added
 - Complete U.S. Presidential Annual Messages and State of the Union

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sotu"
-version = "0.0.0"
+version = "0.1.0"
 description = "U.S. Presidential Annual Messages and State of the Union Addresses (1790-present), sourced from the UC Santa Barbara American Presidency Project."
 readme = "README.md"
 requires-python = ">=3.10"
