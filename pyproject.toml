@@ -1,0 +1,91 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sotu"
+version = "0.0.0"
+description = "U.S. Presidential Annual Messages and State of the Union Addresses (1790-present), sourced from the UC Santa Barbara American Presidency Project."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Mark Alfano", email = "mark.alfano@gmail.com"},
+    {name = "Brian Ballsun-Stanton", email = "brian.ballsun-stanton@mq.edu.au"}
+]
+keywords = [
+    "state-of-the-union",
+    "presidential-addresses",
+    "digital-humanities",
+    "political-science",
+    "text-corpus",
+    "nlp",
+    "ucsb-american-presidency-project",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "pandas>=2.0,<3.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/DH-Oz/sotu"
+Repository = "https://github.com/DH-Oz/sotu"
+Issues = "https://github.com/DH-Oz/sotu/issues"
+"Source Archive (UCSB American Presidency Project)" = "https://www.presidency.ucsb.edu/"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0",
+    "respx>=0.20.0"
+]
+build = [
+    "httpx>=0.24.0",
+    "selectolax>=0.3.12",
+    "tenacity>=8.2.0"
+]
+
+[project.scripts]
+sotu-build = "tools.build:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sotu"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+strict = true
+disallow_untyped_defs = true
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "RUF"]
+
+[dependency-groups]
+dev = [
+    "pytest-asyncio>=1.3.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+
