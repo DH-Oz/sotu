@@ -1,0 +1,48 @@
+president_id,president_full,president_last,party,start_year,end_year
+washington,George Washington,Washington,Nonpartisan,1789,1797
+adams-1,John Adams,Adams,Federalist,1797,1801
+jefferson,Thomas Jefferson,Jefferson,Democratic-Republican,1801,1809
+madison,James Madison,Madison,Democratic-Republican,1809,1817
+monroe,James Monroe,Monroe,Democratic-Republican,1817,1825
+adams-6,John Quincy Adams,Adams,Democratic-Republican,1825,1829
+jackson,Andrew Jackson,Jackson,Democratic,1829,1837
+van-buren,Martin Van Buren,Van Buren,Democratic,1837,1841
+harrison-9,William Henry Harrison,Harrison,Whig,1841,1841
+tyler,John Tyler,Tyler,Whig,1841,1845
+polk,James K. Polk,Polk,Democratic,1845,1849
+taylor,Zachary Taylor,Taylor,Whig,1849,1850
+fillmore,Millard Fillmore,Fillmore,Whig,1850,1853
+pierce,Franklin Pierce,Pierce,Democratic,1853,1857
+buchanan,James Buchanan,Buchanan,Democratic,1857,1861
+lincoln,Abraham Lincoln,Lincoln,Republican,1861,1865
+johnson-17,Andrew Johnson,Johnson,National Union,1865,1869
+grant,Ulysses S. Grant,Grant,Republican,1869,1877
+hayes,Rutherford B. Hayes,Hayes,Republican,1877,1881
+garfield,James A. Garfield,Garfield,Republican,1881,1881
+arthur,Chester A. Arthur,Arthur,Republican,1881,1885
+cleveland-22,Grover Cleveland,Cleveland,Democratic,1885,1889
+harrison-23,Benjamin Harrison,Harrison,Republican,1889,1893
+cleveland-24,Grover Cleveland,Cleveland,Democratic,1893,1897
+mckinley,William McKinley,McKinley,Republican,1897,1901
+roosevelt-26,Theodore Roosevelt,Roosevelt,Republican,1901,1909
+taft,William Howard Taft,Taft,Republican,1909,1913
+wilson,Woodrow Wilson,Wilson,Democratic,1913,1921
+harding,Warren G. Harding,Harding,Republican,1921,1923
+coolidge,Calvin Coolidge,Coolidge,Republican,1923,1929
+hoover,Herbert Hoover,Hoover,Republican,1929,1933
+roosevelt-32,Franklin D. Roosevelt,Roosevelt,Democratic,1933,1945
+truman,Harry S. Truman,Truman,Democratic,1945,1953
+eisenhower,Dwight D. Eisenhower,Eisenhower,Republican,1953,1961
+kennedy,John F. Kennedy,Kennedy,Democratic,1961,1963
+johnson-36,Lyndon B. Johnson,Johnson,Democratic,1963,1969
+nixon,Richard Nixon,Nixon,Republican,1969,1974
+ford,Gerald R. Ford,Ford,Republican,1974,1977
+carter,Jimmy Carter,Carter,Democratic,1977,1981
+reagan,Ronald Reagan,Reagan,Republican,1981,1989
+bush-41,George H.W. Bush,Bush,Republican,1989,1993
+clinton,William J. Clinton,Clinton,Democratic,1993,2001
+bush-43,George W. Bush,Bush,Republican,2001,2009
+obama,Barack Obama,Obama,Democratic,2009,2017
+trump,Donald J. Trump,Trump,Republican,2017,2021
+biden,Joseph R. Biden Jr.,Biden,Democratic,2021,2025
+trump-2,Donald J. Trump,Trump,Republican,2025,2029

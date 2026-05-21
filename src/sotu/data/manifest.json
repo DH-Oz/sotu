@@ -1,0 +1,1254 @@
+{
+  "coverage": [
+    1790,
+    2026
+  ],
+  "total_addresses": 249,
+  "files": {
+    "1790-Washington-1": {
+      "parsed_text_sha256": "71cfcce4c84e8b82bc79c7c245d77dd725b3de94e2f987752a8c27534ca3b275",
+      "raw_html_sha256": "e626d41090818b2159c730482cf3986176367bc0f10758dc7995e3e9cb7041ad",
+      "word_count": 1090
+    },
+    "1790-Washington-2": {
+      "parsed_text_sha256": "d14de33b4a448de46558a7cb245685952afa826dcc3233eb5281833185061ff8",
+      "raw_html_sha256": "b9be7f2cf954989115c78ad4683f29fe0d82311234438f4f4238ac402dabbd67",
+      "word_count": 1408
+    },
+    "1791-Washington-1": {
+      "parsed_text_sha256": "1104baa3ce2132743846cd09093d07f99b1c66f2708e1815d214405d8ff79041",
+      "raw_html_sha256": "d1f3e96e98e784621e44d6b6a0aeaa9d0c55f17044fa9607761a34280033cb0c",
+      "word_count": 2146
+    },
+    "1792-Washington-1": {
+      "parsed_text_sha256": "c659c926ec6237e10b547fa14726e6b1b44a4d9dd055fa1029af2b26a1f8fd3e",
+      "raw_html_sha256": "b465476219bafc91c7298e060484d71abbdba267be1ca853a56f8c77badd9085",
+      "word_count": 2098
+    },
+    "1793-Washington-1": {
+      "parsed_text_sha256": "bc6a7f3a4c2ce2f8aee6bb46355899a2fca999ea068e63ea753715826e07237e",
+      "raw_html_sha256": "7f248aa1adfd1739b61b97625772179fc47cfbe79c49d51b49cc18c090d8affc",
+      "word_count": 1965
+    },
+    "1794-Washington-1": {
+      "parsed_text_sha256": "a81baef296875ffabb97fd227ab8342d4461bf7b3a2c95f042e5c67cfacd8e79",
+      "raw_html_sha256": "7af1ec5e0fd9fe4a7295cb73030f6761fcc6e60f8a9cfd2734b4dd25dc6be067",
+      "word_count": 2915
+    },
+    "1795-Washington-1": {
+      "parsed_text_sha256": "9963a0076604557f77c50c4618b1c64c38f6e9c712047b693455020122226efb",
+      "raw_html_sha256": "26712f1f375de241a70e534704cbf21b47dc70653f839cbd287803ee199beeed",
+      "word_count": 1986
+    },
+    "1796-Washington-1": {
+      "parsed_text_sha256": "ef029ccc9829d7b37423588adbba3c04a9285325ee17068b4910b7edec20a0a4",
+      "raw_html_sha256": "d7fc23d21fe67e5c8a4e1b7cbb425c3559ef6586979a062d8fd9fc3ba93ab98d",
+      "word_count": 2868
+    },
+    "1797-Adams-1": {
+      "parsed_text_sha256": "e3e8c77bb9eb214a0204ab1827533a6fbfc38731f4660e7bbca0f82bfbdbd307",
+      "raw_html_sha256": "dcac5274fb9c0381f69ac2b46ce089a8657435ad10a18f2048c2d93157aa55a9",
+      "word_count": 2063
+    },
+    "1798-Adams-1": {
+      "parsed_text_sha256": "998e1fab8c0472e1a776d1a7bb58a08d502f8aa1b4e86ec2fa651d2a12f13613",
+      "raw_html_sha256": "79e120b0ce872441dd318db8eb24427fa57942184f52deef3b9260cfbc8c38ee",
+      "word_count": 2218
+    },
+    "1799-Adams-1": {
+      "parsed_text_sha256": "5bfbcf46eb38018ba5a6a176a1a74c235cb20bac375c728fa6d7b93a3b9a9b95",
+      "raw_html_sha256": "e5c5d5fb3e89d1e1915ac361142d09c92e57aa7d6c0b3febe3b86372b5f0f77d",
+      "word_count": 1505
+    },
+    "1800-Adams-1": {
+      "parsed_text_sha256": "0e34eab56d34380b5c490c1c7bb699a650cf9f05f15bbe69aa1a7cb7a9b84a9d",
+      "raw_html_sha256": "a8c4c84f0ec4f129e63638d318525df96fb58af8d7142678ec711d13eb1ab7fd",
+      "word_count": 1372
+    },
+    "1801-Jefferson-1": {
+      "parsed_text_sha256": "12ee9a4e6320f7a00fb6d2e89647d5650f88d6e0ac2d38cde56a063f7cba09fa",
+      "raw_html_sha256": "54440a3e68e1cac3211252ef0aadfba566b1656149150da7aaa60be8c670d350",
+      "word_count": 3224
+    },
+    "1802-Jefferson-1": {
+      "parsed_text_sha256": "209f7ff77f1c098c73a7658e46fdc2be9853acac8ce562bd6f58a73547e10f95",
+      "raw_html_sha256": "bf86831c2e1a723ca85f0d1fba21c554b95d0f14136464ef4481a9f9cb376122",
+      "word_count": 2082
+    },
+    "1803-Jefferson-1": {
+      "parsed_text_sha256": "b886a62338b19a653127ce4d1fc7b3940eb430091a249c0207fb074e1d9e1f1d",
+      "raw_html_sha256": "cb7ed34cff0d8a7880dfbd223ec16edb07f7f45017af0eacb7ad394075505de9",
+      "word_count": 2109
+    },
+    "1804-Jefferson-1": {
+      "parsed_text_sha256": "ee30bd8ff4f1feaa759c1c11120855ad97ccac292bdf5b3f5de5c3048f7e82df",
+      "raw_html_sha256": "e27dc3989be6dc25609a8508a62b9b9965bc6a79deb161a22a2db0c97f37b8d0",
+      "word_count": 2096
+    },
+    "1805-Jefferson-1": {
+      "parsed_text_sha256": "f15cb3dad68ba54b61ed72698fe1cff2ada5ffe8e24773e397045abb9fabaa59",
+      "raw_html_sha256": "38133f82097cff40178d3f63a58f4dfc2cfa2a19471689966a6e705cd83c137b",
+      "word_count": 2928
+    },
+    "1806-Jefferson-1": {
+      "parsed_text_sha256": "7cc57306cd6e3538767e68a8eb9eff45100ab7e83cfa068327c3c48dc49f35e5",
+      "raw_html_sha256": "25e5b7665c27bef8dda921e89879b96dca1b93526e650af2f0e9ed789a4ed779",
+      "word_count": 2866
+    },
+    "1807-Jefferson-1": {
+      "parsed_text_sha256": "9fc7158abf683eeeba6adda80c4cd2fd5d858b9c52ee749a9b59092c40eff21b",
+      "raw_html_sha256": "0e5d0a6ddbbbd44e8588662308a14e72fffcf55fc6b0836d65c130d02c676b2f",
+      "word_count": 2390
+    },
+    "1808-Jefferson-1": {
+      "parsed_text_sha256": "833b9c1de5ddd694d4f3db36c4498ec05dd2e050f9e22631544165e425f9ba5f",
+      "raw_html_sha256": "6beffe6c5011716aa362f9ac263c4632795cff39499c7c66585f4df507dc1c27",
+      "word_count": 2675
+    },
+    "1809-Madison-1": {
+      "parsed_text_sha256": "1af60db91cd91c076e94d46ce4d5deb97f37ec987c25d2f48e0f6b83f07cc940",
+      "raw_html_sha256": "ddee034989c249657eacee59ebd8515524d9abcac99bc2c113f076cc47d66745",
+      "word_count": 1828
+    },
+    "1810-Madison-1": {
+      "parsed_text_sha256": "ae7aef38d3c73f78a21cb5476e9ef145e74a919f74e80ebc73f9cc1e20cbf37b",
+      "raw_html_sha256": "d0c654039162432ad0681d3c039489b3fbef25b6b9b0ac1ceb9f40a919e615b2",
+      "word_count": 2443
+    },
+    "1811-Madison-1": {
+      "parsed_text_sha256": "5385206eb0f2bad2dd4c7de879fa7e800cd326e4c4b1f7bcc0018649d367bfc2",
+      "raw_html_sha256": "f941e61a63a5d650fce36b356b6ef89b7a2ba53b0b65398cad1472438f7533c2",
+      "word_count": 2270
+    },
+    "1812-Madison-1": {
+      "parsed_text_sha256": "e9034783e05a28e825e001c4e875c82327dcf3a6e8a4e1eeffee255359446762",
+      "raw_html_sha256": "5eb326ab0a34916cf8e1d6cf23ba4eaabe62db06987beb2fd8c1bfcf990143e8",
+      "word_count": 3238
+    },
+    "1813-Madison-1": {
+      "parsed_text_sha256": "877ec9deec8b00f8f9fc769392c4869be7d43673cee7d49f0ad6daf57f2c595c",
+      "raw_html_sha256": "9b79ef7ab39971e1f50811766a005db62d99062d4b63bd9726c8753590b38aeb",
+      "word_count": 3257
+    },
+    "1814-Madison-1": {
+      "parsed_text_sha256": "ade66d2d13c9219de23948dd1f655d3fd25b3c6177678c5924e9be956ed5547f",
+      "raw_html_sha256": "91c5b58a98c4a1935df72d009a16c77df6d9edab7c75c94016b8381625fd2f62",
+      "word_count": 2108
+    },
+    "1815-Madison-1": {
+      "parsed_text_sha256": "319caa420ab640cad3e7862b2394e0c41cceb07e322653456594ef45afea916c",
+      "raw_html_sha256": "92a7b1b4d6c99ef8384c890f4704e5e93a6f602a1d9a4d86b0546ea2e1e34846",
+      "word_count": 3143
+    },
+    "1816-Madison-1": {
+      "parsed_text_sha256": "108c9bf3136d1dc4899beeaad49c863a566a87543241eb3b4b42dd31a8a42ee4",
+      "raw_html_sha256": "8db35cc501221dfd4db0ef4d6c95966c68f0566a6b03191184da9e2c48daf403",
+      "word_count": 3361
+    },
+    "1817-Monroe-1": {
+      "parsed_text_sha256": "ad13ed620b4c08ff36abf406612c61539810f2fc0b49b5334c950361f4887b43",
+      "raw_html_sha256": "fcff26bfc13f6dd239963a970d9e44403b944e5459f22842a8cce4d95b39522f",
+      "word_count": 4417
+    },
+    "1818-Monroe-1": {
+      "parsed_text_sha256": "ff44885ddacc78d8829a1dd0d803ba7fceab3acf77aaa1cfeb5ebff2c91ff847",
+      "raw_html_sha256": "b1117d389e3bfa4ff8231dec3084ab49606a2c98f0d0f25a00d751feb67bdcd2",
+      "word_count": 4373
+    },
+    "1819-Monroe-1": {
+      "parsed_text_sha256": "9d037d1fcb21cb2d36d2ab362a78ca8fa8109242b719f741fa4e479452bea5af",
+      "raw_html_sha256": "9b76407057b757eafbf2e6ec048969537f55e8781b7e3607550b382da8419d5e",
+      "word_count": 4699
+    },
+    "1820-Monroe-1": {
+      "parsed_text_sha256": "aca588c1e7e989b2527d3e29ae343f64aaa1ba0995fb725820ff9a250c2fac01",
+      "raw_html_sha256": "dedf7e78d07ac9a3f4abc8ea06eeee42ff6da4e8cb55414c0ce4939c3192f746",
+      "word_count": 3443
+    },
+    "1821-Monroe-1": {
+      "parsed_text_sha256": "45737e09ef7b9cb78ff04ab27319ad47228310b44d3ec3c7b8193c5d41a92e44",
+      "raw_html_sha256": "aa1d8584d585f88942a94fca55b228509893520db2e4733289f76f99452320eb",
+      "word_count": 5811
+    },
+    "1822-Monroe-1": {
+      "parsed_text_sha256": "2245b5595002dd0b4a0bf4fbb719645c87f4bd22f99d6ccda700cad3bc2b0cd2",
+      "raw_html_sha256": "22641e564161f67bc48b380db7cdaf6120bfd2fe72eb3f4bfed12dc6c4e5c44e",
+      "word_count": 4315
+    },
+    "1823-Monroe-1": {
+      "parsed_text_sha256": "c79c9283f309fb4f5e9c287d826a94c2feb751f1723e816bf3dc04cd80cc2424",
+      "raw_html_sha256": "58b89dd37b335aa273ffe39406540991f42f8aa5db29665d97f519d8bd84a0ac",
+      "word_count": 6316
+    },
+    "1824-Monroe-1": {
+      "parsed_text_sha256": "527ab5d3d4c8e29e964cb61c35867808837dcc7def7e98c8862ba2070477641b",
+      "raw_html_sha256": "bef71d283763853d15d71ac403580deeac2d83ff9865e3e15248858c8797a2ec",
+      "word_count": 8256
+    },
+    "1825-Adams-1": {
+      "parsed_text_sha256": "b2891860c9a21484dbbc0a2b7c3f4912a846c87b28b40c62edfaf2c13edd39ff",
+      "raw_html_sha256": "7ac2f1430571b66584e40057d201026a9ccfce5525d524a07b4e7e1f93e7cb9c",
+      "word_count": 8985
+    },
+    "1826-Adams-1": {
+      "parsed_text_sha256": "aa663c9d6a49da7237d7528e697445b65e604b4755db32f4d5d5e9974620f710",
+      "raw_html_sha256": "225e98450b39e91ca8ec9b7ac0ce29ce4a07557c3d93f3d57738f7eb79bbd8c5",
+      "word_count": 7705
+    },
+    "1827-Adams-1": {
+      "parsed_text_sha256": "67ff04af428083708446cdd83b9c6c0fab3c952e567173d7319ba1ca93c68244",
+      "raw_html_sha256": "72f4b1858bbd351a6c08877566817463a702023c13b7d2334ff367276eac069e",
+      "word_count": 6667
+    },
+    "1828-Adams-1": {
+      "parsed_text_sha256": "5443f45086066b1da9fb4109f5a0f5220dff2bfcd491346daef1d1709c443559",
+      "raw_html_sha256": "ee4f188701d8154de6d1f89b940eddf51fa3f4465c0a4e628ff21ec31a03c225",
+      "word_count": 7285
+    },
+    "1829-Jackson-1": {
+      "parsed_text_sha256": "e1ba28fece9e9f1c70693ba04d31243571ba2ad9ba7b4d5c8ae89735dfb08306",
+      "raw_html_sha256": "6fe297086aa6238654720f8e59b04debce2c51551a6305b19bc4eeeb8c2680b0",
+      "word_count": 10527
+    },
+    "1830-Jackson-1": {
+      "parsed_text_sha256": "e44f13dad5975141c7028a4d8d7b6e7f363375cfb4576878614150461b0dd4b5",
+      "raw_html_sha256": "9d1d37959f25ee3fb391cced8aface67969b8f717e65c09236c32d3b199f4487",
+      "word_count": 15116
+    },
+    "1831-Jackson-1": {
+      "parsed_text_sha256": "f4863418769199244df64c371086e76204fffc1cd8a6f639edcd15f5d0547053",
+      "raw_html_sha256": "e7838988efe9a99db50d03bc1dc081693864c6d873b05944b4b9cda65e3faf11",
+      "word_count": 7180
+    },
+    "1832-Jackson-1": {
+      "parsed_text_sha256": "1d555ec9411d1b19c73a540d0ed66115ce6c10289e4911cbb1e99ea87d8a5938",
+      "raw_html_sha256": "c0f38c37e0bfb9af94aa5e8f34ad19117ac6e888209a7b6f0cb1d9acd122279e",
+      "word_count": 7865
+    },
+    "1833-Jackson-1": {
+      "parsed_text_sha256": "92775978317ad15c7caa66fc10ecae235fc787e3f9ca1ffe4769a6e33dce7785",
+      "raw_html_sha256": "b1454c0db20fd9114d4b4e7bd19a8e22e8ab585ab15b814a1e44a043287475bb",
+      "word_count": 7892
+    },
+    "1834-Jackson-1": {
+      "parsed_text_sha256": "43c3294650bccaf453b6fb8e431f8a232d9d579439b8b884b50eb42f7a4c033a",
+      "raw_html_sha256": "0fb6adffdc6309a6cf6ae68a4734a4c3dba7443a6cc02c7781a6e3ccd4493726",
+      "word_count": 13261
+    },
+    "1835-Jackson-1": {
+      "parsed_text_sha256": "c788f189b6a9ea68d8b34522fe0bbe5451315055a087cafcbbc1807a45808475",
+      "raw_html_sha256": "b562ce08c9e47e81c236b260afeefd46ef261b6c9ee9e54fbc97d5d4bb811d2b",
+      "word_count": 15619
+    },
+    "1836-Jackson-1": {
+      "parsed_text_sha256": "4e6f8f3e9f56040dee7c24dcc699d905e41c95a2e4ddcbf6094dc7791b1f5026",
+      "raw_html_sha256": "fce36b4bd7a3faad1b0f3c75d52abee386b2d8ad2e7e3852b4aaa48e13e3a5c5",
+      "word_count": 12369
+    },
+    "1837-VanBuren-1": {
+      "parsed_text_sha256": "68683bf3e5f4ffba700cb314fc085209ee09b7eb1bd25bb644bad9fd37675391",
+      "raw_html_sha256": "cbec08464281f7286e40d27265f48bf88f21dbce1075ce1d9b344b00a2801e0f",
+      "word_count": 11435
+    },
+    "1838-VanBuren-1": {
+      "parsed_text_sha256": "8d7cc92c597ea597aa28e851f6110791b536acd474e4ba01643327f4ffb64661",
+      "raw_html_sha256": "ceadc640c8bee166b6da31dfb09798e2e0069bb937878a80483eafb4574e7db6",
+      "word_count": 11475
+    },
+    "1839-VanBuren-1": {
+      "parsed_text_sha256": "c5cfcae3734802dbbd44c28684e57878b858bb20585a678f221bca2f6d8dd032",
+      "raw_html_sha256": "527348008ab9ebb4b1911d858a74d7a31226c068427991ec2d363f89d00a9824",
+      "word_count": 13416
+    },
+    "1840-VanBuren-1": {
+      "parsed_text_sha256": "99ef93c3e24c0b419bb7a7c5c88a72b53c141492eafb73e09d97cf7cda6eb73d",
+      "raw_html_sha256": "5211112a7bd0efc3be21aabfe497807d4bc9aab380023e7037b3f8b620ac8afd",
+      "word_count": 8976
+    },
+    "1841-Tyler-1": {
+      "parsed_text_sha256": "f48f5ac4580bf7919bd813fe2c1a93e0103d7ef064966757484151f6d6968863",
+      "raw_html_sha256": "638f38c0da67512f7999f5530f612ee9ff06b46738d76fca0581359c4789215e",
+      "word_count": 8240
+    },
+    "1842-Tyler-1": {
+      "parsed_text_sha256": "6871fba4ae11513ef408897bd6a5e813647ddbd43d84030feeb22f4d2e586532",
+      "raw_html_sha256": "269261e61b81763396d8f2ecda466f5be297d67b1d8a788928b8b0414da3ead7",
+      "word_count": 8401
+    },
+    "1843-Tyler-1": {
+      "parsed_text_sha256": "5efa7f313bbe2b46e4b72f992a46f565e262849c807dee0b334f7f7cf460e608",
+      "raw_html_sha256": "b82b0f16e588c5e73b3e19400e0dc8493412dc7f2d20a77a51057b7d4ad51e40",
+      "word_count": 8026
+    },
+    "1844-Tyler-1": {
+      "parsed_text_sha256": "ffd23d2f93e6ce107cda0525e675118fd4b449478df18f200248a21dae4504a2",
+      "raw_html_sha256": "6f4dd8c2dcc0cf110535cdbaae882714113d6dfe6c97a5b53b59fe9b13858235",
+      "word_count": 9313
+    },
+    "1845-Polk-1": {
+      "parsed_text_sha256": "4b0d19010af715283fc3cfc307abc7702efd64580fbe82d770aeb9d395fd0bb8",
+      "raw_html_sha256": "a73f172da5327cbda6babc62229d2dcde775a5167ea1fa1bd2fa33148de70f9c",
+      "word_count": 16107
+    },
+    "1846-Polk-1": {
+      "parsed_text_sha256": "9cea2b2af649c2048c1899e1a2c9c4d54dd6b5ce47a0c1b9f3278010c964f0f5",
+      "raw_html_sha256": "788575bc63a145efdb76ad652979cff252deb5ac821927d2b1e408f9d132cfd4",
+      "word_count": 18218
+    },
+    "1847-Polk-1": {
+      "parsed_text_sha256": "328c7efc657acf0186f1a42854a01eec8b642197041096099bde7914e0fbe52e",
+      "raw_html_sha256": "16bceaf90600002804528b390b568e528a57778ee6f6b157393802de8426e2b8",
+      "word_count": 16407
+    },
+    "1848-Polk-1": {
+      "parsed_text_sha256": "7f72264bd9ec7b5880b9a2967cfdac5b722e51961ef0c699f8aef13a167bdcec",
+      "raw_html_sha256": "305e3fd3810b556d825bca40b644073afa6ac4fb5249758fa7ba05c7e7c6872b",
+      "word_count": 21293
+    },
+    "1849-Taylor-1": {
+      "parsed_text_sha256": "b71cc8b760a28d016a8fb950f8e070ab2dd948f5de9195b26211b6225d15dfe7",
+      "raw_html_sha256": "d21f0ab324d2061fcdd9e47ebb771d3268259133df20ce2922e01b9920d94ff9",
+      "word_count": 7620
+    },
+    "1850-Fillmore-1": {
+      "parsed_text_sha256": "3a97c5f67017c59010186aacf7698e22aba7bb1f9f6711b22dd015153eb21bfc",
+      "raw_html_sha256": "449850a064d0a3b839694229dd69455ab7e9fbbe5d54ccd82de836f2c1ecf8b4",
+      "word_count": 8318
+    },
+    "1851-Fillmore-1": {
+      "parsed_text_sha256": "522fde349234215ac36d7b8065dba9464eebec148b09169c505f4595439f5389",
+      "raw_html_sha256": "f646644bbad3ab61adaec4c43b91afc5cf5075b4fa4cfed0d9d222274d1b5c55",
+      "word_count": 13244
+    },
+    "1852-Fillmore-1": {
+      "parsed_text_sha256": "bac210a1260fad81a04686746e77e8410914323a267a9335e94682dc19a4459a",
+      "raw_html_sha256": "e8eb7d8469b54b6a1909536d0dc9de0c5d10858b84f0c502c464a32e8ca30fd1",
+      "word_count": 9923
+    },
+    "1853-Pierce-1": {
+      "parsed_text_sha256": "f52af718e96fb01409988036f422e01231b27ae8e789a68e8e5edd4fbf83fa45",
+      "raw_html_sha256": "c6e63677e08475dd5b95ca801e1a41375104ca6946d5b82d5f6ba9a360349221",
+      "word_count": 9586
+    },
+    "1854-Pierce-1": {
+      "parsed_text_sha256": "cb1d961da745784426be23ee5186afc1a466031a44f3e42f8a94cf4a588716d4",
+      "raw_html_sha256": "8a323c0b7a1e27dada2c85815bb981fa4f78fd204f7d398edc5ed632bac9d7a0",
+      "word_count": 10134
+    },
+    "1855-Pierce-1": {
+      "parsed_text_sha256": "0435ebf39f6cfd9179d9e75b98f319eaeb7a7da9154e4c069258a990edd3a9ea",
+      "raw_html_sha256": "37226f1088c4bc06853d0d70256064a56664b405f828d4b7fd91f333c0a28cb8",
+      "word_count": 11610
+    },
+    "1856-Pierce-1": {
+      "parsed_text_sha256": "050d00750566282f7ab23b1dfebe30dcde2b8b13bac6453fed35857b77416c81",
+      "raw_html_sha256": "81c228b8637e93b6f51738295f6c0410328a003a9b321fda7c16eb07aad3271d",
+      "word_count": 10472
+    },
+    "1857-Buchanan-1": {
+      "parsed_text_sha256": "e25202c4bb55a79caff4af12da78419155eabf0e5f128455a67201893a3e20df",
+      "raw_html_sha256": "315604acdae2f938d57d41acd82d210c56ee5e9553483d2a05d801501e4a553a",
+      "word_count": 13651
+    },
+    "1858-Buchanan-1": {
+      "parsed_text_sha256": "77405969d5b7c76483e2110fe8e37841ca52534eba5c266585e6bf5066c51dab",
+      "raw_html_sha256": "15c283fe777319e14fd00e2df7e5220af834da375235c8760f05da62e00503bc",
+      "word_count": 16347
+    },
+    "1859-Buchanan-1": {
+      "parsed_text_sha256": "70505cf98678aa3650249dc8ccb24c48c41de5d0fe169a76cc819e15a78ae4bd",
+      "raw_html_sha256": "96b9b92c295fd3b6aa9b7a57fb2398c21faf69d38e035cc77a933ad720e42d47",
+      "word_count": 12334
+    },
+    "1860-Buchanan-1": {
+      "parsed_text_sha256": "411532d8535698bb6bbd1654d37f9f3657933d342b70ba32543e1e4bb36670e9",
+      "raw_html_sha256": "2cbedd0c4570be66582514967610faa1e9dc5a53898d98dc8dfb4d49641a140c",
+      "word_count": 14036
+    },
+    "1861-Lincoln-1": {
+      "parsed_text_sha256": "e1110b05ba0ff6faf01a884d9c3d0368efb76f1420529a031c8bb937bd6e8136",
+      "raw_html_sha256": "0dc98dd541a8062f807282c4b54c45b6a1db1d74e64de1b75862ff31c25bb6cf",
+      "word_count": 6977
+    },
+    "1862-Lincoln-1": {
+      "parsed_text_sha256": "55514a382c2dc641783dbe0325b4b7d1a3570d35e9c9bb22c575292f5e93a061",
+      "raw_html_sha256": "9867bc5e441f8332acba8881647de2db4d186e79abcda8355a1c840e88c47060",
+      "word_count": 8283
+    },
+    "1863-Lincoln-1": {
+      "parsed_text_sha256": "d9d48d62bdff101cbb42eca6360a995aebc497ab27b6bd6cf659057ca7b93edb",
+      "raw_html_sha256": "2b713a77e49e5c7ca8e20c55e59e4ae90bee36d93fc01b719294a60cfa409e76",
+      "word_count": 6118
+    },
+    "1864-Lincoln-1": {
+      "parsed_text_sha256": "d4725466e37209e11f1be9f6e10e4e1fae13204e692ee166757632a8ab41eb9f",
+      "raw_html_sha256": "b3f25c3d959cdfb2c0f9ac74646ac34a975c8ab5e82b108d83ca0721d103936c",
+      "word_count": 5875
+    },
+    "1865-Johnson-1": {
+      "parsed_text_sha256": "189bca84839f470b4b8bb1ad0ab93b2812c018bfebba032492d8d48a058f6fe8",
+      "raw_html_sha256": "6c3e3d78b014e4fb3f77c0c71453072a98f07ea92eba65b500a404bb9e446985",
+      "word_count": 9220
+    },
+    "1866-Johnson-1": {
+      "parsed_text_sha256": "4f275be61cb971a3947d7e5ea1ab302d3ac6f6582eb8bd2d0a0fcaf501ec9e10",
+      "raw_html_sha256": "6175cc3e96006a5d9c3c47e6ee40459c113c86659e1e69e134f36c2fade490e6",
+      "word_count": 7127
+    },
+    "1867-Johnson-1": {
+      "parsed_text_sha256": "5b45e6efa845f5cde055d7dfe787eb6afd4c0ff32b76f01d2ea4e4af69e82928",
+      "raw_html_sha256": "3fcdae9992734c98b82228a94f8538599377b03c3fff2091f7e0e1dc373788d8",
+      "word_count": 11983
+    },
+    "1868-Johnson-1": {
+      "parsed_text_sha256": "31a5193dbd4fb7932328418b936b7307cf00eb39997b3cc5d25047dbcfb991f3",
+      "raw_html_sha256": "56b1d19353e2b02218dd461f6da771234f1ee56056adfb152d60de8d798b7ef3",
+      "word_count": 9819
+    },
+    "1869-Grant-1": {
+      "parsed_text_sha256": "94302d532293fc34fd0055e2900088f762c51a831baa280563fe14acbefb49be",
+      "raw_html_sha256": "bd89b6956ca27d2908e99b1ca5e4b1df8654a048cc486fccf5059593f77a50d7",
+      "word_count": 7687
+    },
+    "1870-Grant-1": {
+      "parsed_text_sha256": "6d967e79dc39c48b6a34dc59bee04d8dfa800b9557947d686395d5e726ee741e",
+      "raw_html_sha256": "7c983f0144edb31e2c1604f0f0a75c6309cd5e6dfede8f62d214efb7b93b511d",
+      "word_count": 8733
+    },
+    "1871-Grant-1": {
+      "parsed_text_sha256": "1ee9c8cedf14779364b6691c6e95946c8d1515f78f8d702c6710ecae694fef97",
+      "raw_html_sha256": "77b1c00993cc1d5904ea51a9f2b5b53170aa3010f6a55a2bdde13b883cc38195",
+      "word_count": 6455
+    },
+    "1872-Grant-1": {
+      "parsed_text_sha256": "309da94c61d411b87fc61949a7acdc9b9926b5e43096ede656349f2843019acb",
+      "raw_html_sha256": "9df5d7e7a50fd0ce640048dc750a6e0835316db2999cef266aa6363b9ffec53d",
+      "word_count": 9810
+    },
+    "1873-Grant-1": {
+      "parsed_text_sha256": "fcb61d0cc6c4d1bbb45a471ba6db0e57378bb3e23ca951fb383e57f223bc55ef",
+      "raw_html_sha256": "a8d458a5083f8e8f179b552739758b2fadb7d279daa3b6db102ffe483ea570ae",
+      "word_count": 10022
+    },
+    "1874-Grant-1": {
+      "parsed_text_sha256": "ad89357ef7cc4d2c099996c938bdbc981b5d47f6ad08cde5538d7ba7c056f407",
+      "raw_html_sha256": "4e4105be6ca1f07c22639bc4041d74936f210a16942bcdcfa03212bfc29a89d5",
+      "word_count": 9719
+    },
+    "1875-Grant-1": {
+      "parsed_text_sha256": "07db716357e09db03956d058dd9cd46c0402943bc8ad2ed7cffe2f3612ecb543",
+      "raw_html_sha256": "7f5f1e5af76a422b5d1afb5dcfda418bb0823eda2c709ef5c2acf4be340a52fa",
+      "word_count": 12200
+    },
+    "1876-Grant-1": {
+      "parsed_text_sha256": "7485a59edf14cb2d9dc58d8893f59def4e02bdc09fca3951ca230b357ed0c5e4",
+      "raw_html_sha256": "e0986674bf5ec677f29712a2478c4126f9a0773fae7aa03685076bc8124e5d21",
+      "word_count": 6790
+    },
+    "1877-Hayes-1": {
+      "parsed_text_sha256": "3c84fcde83ab3fdc02a6060ed6219816a91af12cf7610608e96f1ff1b286a173",
+      "raw_html_sha256": "41115bcb039878a4ece207d434f5dab2a4dce776b837c7e9e3f919c9035e31f5",
+      "word_count": 10663
+    },
+    "1878-Hayes-1": {
+      "parsed_text_sha256": "60d010daa194967e2bdb86e2cc55a0b8f6172291427e1f81bd41af3d43a8c809",
+      "raw_html_sha256": "e0178d31298f27b9bcd9eb6983d277ea346034009db11f616d4a51c0a3fb7a29",
+      "word_count": 7878
+    },
+    "1879-Hayes-1": {
+      "parsed_text_sha256": "578d44f0c19f5302b0b16b86f79b500cba350ebdbc0326ba752db6d8a8347e1c",
+      "raw_html_sha256": "6e1808b800c020efa89cafae1802c82dd630451195ae3a70d19a67d41a148cea",
+      "word_count": 11633
+    },
+    "1880-Hayes-1": {
+      "parsed_text_sha256": "31240b96aa42f91997217043a7e9ba038e42fe577f47500ab1305cf016a7e1d6",
+      "raw_html_sha256": "62b7e70e78b0679b2c60326338d9faeb107f9109fc0ad70a05d483248db9d4d8",
+      "word_count": 13129
+    },
+    "1881-Arthur-1": {
+      "parsed_text_sha256": "f0f9ba55e3eae6cb60158586204f2240060e9025ac7870cfd9ba20433aabc15b",
+      "raw_html_sha256": "d772ea39fd3d988a5b060c145dcf6887ea4ed95a0e717da92b79b13ee63601d1",
+      "word_count": 13043
+    },
+    "1882-Arthur-1": {
+      "parsed_text_sha256": "48fd45e09e6ce7fcf609dc238b39de017791151df9bde752607d6c48bf15a2be",
+      "raw_html_sha256": "5839997eb041cfa322efdd81b8fdf0466c5c48872b2f1d14f9147ce04093f6fe",
+      "word_count": 9873
+    },
+    "1883-Arthur-1": {
+      "parsed_text_sha256": "cc288986155baf4a12f3904e2eceedbaa80b2f9a765da4f832b5eb6bbc6ac14a",
+      "raw_html_sha256": "fdbeafeaaa44734511be75b06544e424b795644d3248aa9384f1edbf5f57c8c6",
+      "word_count": 7890
+    },
+    "1884-Arthur-1": {
+      "parsed_text_sha256": "9d27b5a02f1d78d9a341bf243bc96fa9ea13dbc20debd110b0c23c7f42039306",
+      "raw_html_sha256": "47fe14acb04a4df3936b71207959632b7919033057196be0cfbee3a47c645997",
+      "word_count": 8742
+    },
+    "1885-Cleveland-1": {
+      "parsed_text_sha256": "43db1632638c38d6582b1c6dedf91b59392e14da9460a17ffcac619eff803031",
+      "raw_html_sha256": "a21827784c07dca28e25d3d58be60ead20bf82f62e643b3a106415fe1225fbc7",
+      "word_count": 19745
+    },
+    "1886-Cleveland-1": {
+      "parsed_text_sha256": "6514e12bef54f205d41cb4624c9dd9aa31787ef50353a67fef397b7e3080bafa",
+      "raw_html_sha256": "e1d76117c4e371e2d93d11adf5d822f289eb7e53294ffcc94588a5c9635e3663",
+      "word_count": 15134
+    },
+    "1887-Cleveland-1": {
+      "parsed_text_sha256": "ce11f1b00a2eb8677b32e86f6a4be9c920d23fecd6e4a7c291d017e0f2379121",
+      "raw_html_sha256": "e750ee63b9104a6d9fbfda8e3ceda94054ded0bf02385193b272336d098954de",
+      "word_count": 5289
+    },
+    "1888-Cleveland-1": {
+      "parsed_text_sha256": "17cc85a5bf95124877fc9764e0b2b0ebb6ce7920137141cb90895869cbeac1fa",
+      "raw_html_sha256": "5f37ce4a59db33a5688ced3358980b4a1cddb2987b71189f22949ef820145162",
+      "word_count": 13181
+    },
+    "1889-Harrison-1": {
+      "parsed_text_sha256": "f9ed762d9bbc1f50e4bfa277547c580d7fe967dbc86e14bb107ec992e09702d8",
+      "raw_html_sha256": "c5fba870946481c5eed932f872408a83e0d31bfd0f8dfded4620d128cc770e1c",
+      "word_count": 12983
+    },
+    "1890-Harrison-1": {
+      "parsed_text_sha256": "c51c822d493a18f2a505ca887bde065da10f9ff046faac7eeca9fbe8ea3e8b2b",
+      "raw_html_sha256": "ec15807c872b1e965d18872793c4d7850f2ccb933cd6b2bacd7c01fc405ad2ac",
+      "word_count": 11520
+    },
+    "1891-Harrison-1": {
+      "parsed_text_sha256": "15249bc550ee5562e57de3ce0d339e4ebc1828a59355a31805098bcfb1b1ad55",
+      "raw_html_sha256": "a387192002de3ee67ac47b65aad1274feae00224fbba816e14b22d4637e3cfb0",
+      "word_count": 16291
+    },
+    "1892-Harrison-1": {
+      "parsed_text_sha256": "59db99d01213db5a057b08ee82cad6ac46cfb99b17c0542950eecd9ee23cc8f6",
+      "raw_html_sha256": "f1fc7e00d543982e0eba5dc0f572bd135e65e54e140812b910b59f1dbea62ae1",
+      "word_count": 13676
+    },
+    "1893-Cleveland-1": {
+      "parsed_text_sha256": "3ac5ef0aecea20850b550476eb8ae99b0f02eff8daede4c25066cca3be3399ef",
+      "raw_html_sha256": "1c196363971913315dae1a2c29d6da627df857dd4f7595398ad70d84b19b2412",
+      "word_count": 12281
+    },
+    "1894-Cleveland-1": {
+      "parsed_text_sha256": "1f2cee350638622844a45faef80b05bd35cddc93f7baf73e3560318ee8dac00f",
+      "raw_html_sha256": "4f6d933b90c80b6151de482111847a0e1e651d44fa31b7b279c6bab4d94b4a50",
+      "word_count": 15890
+    },
+    "1895-Cleveland-1": {
+      "parsed_text_sha256": "0020b6a2f21cbcd20f4d4c068f7c02aef9574d81e4bc9dbe155d2dedc01de9ec",
+      "raw_html_sha256": "06f5d03044471a6f3e59746676c6dffc45997128e70624b366a188b446da5c5d",
+      "word_count": 14669
+    },
+    "1896-Cleveland-1": {
+      "parsed_text_sha256": "2589d7f40f911ce04d02dd470aa178ddad5e6561fe8b34d5b7e8ab9bf9682bee",
+      "raw_html_sha256": "8b72c2bd1452194d6caf47752e3130331f5d189b2d3da1ebc633d6958f1e0621",
+      "word_count": 15332
+    },
+    "1897-McKinley-1": {
+      "parsed_text_sha256": "4bd3747d3447a67413fd348014e1d9354e20e4e250d553850141a3da1d2fd453",
+      "raw_html_sha256": "aaac1e14d8b9354fc80e1c48312b11e5aab9943f4aad85678ec0eddb59c9573f",
+      "word_count": 12111
+    },
+    "1898-McKinley-1": {
+      "parsed_text_sha256": "2196981e83f36f411d19536f86a295433599f1c16772126434bb6ecb5d0fe274",
+      "raw_html_sha256": "b59150e02b0f1f383300421b318177fe93f625cfe9947d9668a70d30efc17135",
+      "word_count": 20209
+    },
+    "1899-McKinley-1": {
+      "parsed_text_sha256": "22181ceff42bc2067367fbceaa4919dbd1a9167bdb8eaaf873fafaaa9812b891",
+      "raw_html_sha256": "4d705ab97a7eca85073190be3face1664e70d8d3364e92a78ea6e617e1b43960",
+      "word_count": 22797
+    },
+    "1900-McKinley-1": {
+      "parsed_text_sha256": "6dc1e84808e8c1db19f13cd7822781e960223bfdb6594503745b050ff55ab9c0",
+      "raw_html_sha256": "ee5c54676d328f767e6e08687a721bd34c19736fe435c1ce91b153f32a4e5d1e",
+      "word_count": 19138
+    },
+    "1901-Roosevelt-1": {
+      "parsed_text_sha256": "f1c8a6b6d56d7ba4cd865cb0f5230174eaf5bbb21b6f0ff6563beede9dd25571",
+      "raw_html_sha256": "8d31c80b289b562bc351ace5079c8913ad28f458420ee3cc6ae90488a1d9eb33",
+      "word_count": 19588
+    },
+    "1902-Roosevelt-1": {
+      "parsed_text_sha256": "5f3872f444a8d60704ead30bf812acf46304cd8e2a034fa5e4bfc1c807b2fac4",
+      "raw_html_sha256": "850219c12a1bbb98cadaa20a09b88f6d907a42fd4505c74115a82933ca22e274",
+      "word_count": 9758
+    },
+    "1903-Roosevelt-1": {
+      "parsed_text_sha256": "0bf37b610d77a63b564e54392fec48490f6935f4eb52f2b5507e9adf4079a0c5",
+      "raw_html_sha256": "20ebef84965af19e5c6f8245049a29007b39a3044ae135151c9e652f0bfbd721",
+      "word_count": 14596
+    },
+    "1904-Roosevelt-1": {
+      "parsed_text_sha256": "4b314d184b4ec0f8f713efd07b21d3112559934024a61699922e21e09841405a",
+      "raw_html_sha256": "afa2922bc80bb422507c45c1f919dc770e9284188abdcc621f174d4e6fae30b3",
+      "word_count": 17403
+    },
+    "1905-Roosevelt-1": {
+      "parsed_text_sha256": "4dbe74cb4b53c41931a3da194329f40e19a340c191503143e7d98366397771fd",
+      "raw_html_sha256": "65df3c198c9c13b0b67ad85d3121de91435a28e222f090a13b830d8f3600d907",
+      "word_count": 25033
+    },
+    "1906-Roosevelt-1": {
+      "parsed_text_sha256": "80a5f83847c2c3203a9e3be0f6a7fd01b657032410be2f057c9c8b0dd849272f",
+      "raw_html_sha256": "1e2dd6ba53a05e587809ed8a7d8a7c6da6a16600e0e660abce742745138e7c3c",
+      "word_count": 23575
+    },
+    "1907-Roosevelt-1": {
+      "parsed_text_sha256": "98a804919e48a4d325d1005ee6a524e55759cc25f8435e28e9e454e8db680768",
+      "raw_html_sha256": "c0e0ca3c1bb0ba80b26f1077c47dea4b89ded8716e36d77e6da0ba1465c238d0",
+      "word_count": 27374
+    },
+    "1908-Roosevelt-1": {
+      "parsed_text_sha256": "d6c70d8ee6f82f50c8eb2f1af2972159f7b00b1693e37de8086a5ba2a91fa0bd",
+      "raw_html_sha256": "1b964272f7ad14184c1b043479345663bc3890a6dd2392631cdfbce70a761eea",
+      "word_count": 19384
+    },
+    "1909-Taft-1": {
+      "parsed_text_sha256": "935625620522b49ce83dd0b1f3837116cf8c575fb56ccb55a67568676e897097",
+      "raw_html_sha256": "371ecb8aaeafb1a5001da5deba0a6ecbf26917afc71d01a0e1c3744282b361e5",
+      "word_count": 13892
+    },
+    "1910-Taft-1": {
+      "parsed_text_sha256": "ed2697ed0f4cfc2eb671d792c83ad7a05171cf28bcec43aa077a4b061afbcdeb",
+      "raw_html_sha256": "a05206a59a0b5d8a14dda78b8f0ba7f45bcd3167b6007a16f2c76ce7b7530bbd",
+      "word_count": 27281
+    },
+    "1911-Taft-1": {
+      "parsed_text_sha256": "0daa35aafaad3a4ea94b8b82f010e195d2cd023488cf0ed95f87fd8b4e22c99c",
+      "raw_html_sha256": "b99983693178c64dd75dcb31d1ca3b4835cec93104b68077e74f330b2f19209a",
+      "word_count": 23725
+    },
+    "1912-Taft-1": {
+      "parsed_text_sha256": "93cfd3d11f68fdd5726bd4fe6053115d7f538813787b55d55e8f328178af7289",
+      "raw_html_sha256": "3c8502b5b5f3772420585fa8ba3c652ce20779d769bc6631ba314c60eae15ed6",
+      "word_count": 25134
+    },
+    "1913-Wilson-1": {
+      "parsed_text_sha256": "88503f64167fa7acadaa0f71edd5a707ec6e9c0e282b5c7b8806bd8c9b978b89",
+      "raw_html_sha256": "50f389f645ddc041bda835a07933c7d4b6f343db27b94cca543c051c8ff55df3",
+      "word_count": 3553
+    },
+    "1914-Wilson-1": {
+      "parsed_text_sha256": "71e80cce3ab9fc949506fa671988f34a0a8cea2621254e901bfe91ac53e4a5d9",
+      "raw_html_sha256": "09cfc6de34d0f75c1492aa928cc504eb189d26224d29f981459314cf248efca2",
+      "word_count": 4535
+    },
+    "1915-Wilson-1": {
+      "parsed_text_sha256": "73f16ad24ac20aa36c0e6c99ae37908673ac28738eab102f0490bd5fd3264998",
+      "raw_html_sha256": "83aa47cad58a78dc3d90c375aa852c3fa7a34baa2000f13c446e6708221a4d90",
+      "word_count": 7685
+    },
+    "1916-Wilson-1": {
+      "parsed_text_sha256": "35736d8a6d05c118e7dd521ec82848d5493e3c5fddcd3734d77bc5d7e530f67e",
+      "raw_html_sha256": "2072e68c778991948cf53bf089746a110d6d7d06ffbd50aca4832dd567c1de02",
+      "word_count": 2118
+    },
+    "1917-Wilson-1": {
+      "parsed_text_sha256": "685653cd82336c77b55925678b4102da8ebaa6cda9e4b91b13077e999df653e3",
+      "raw_html_sha256": "a41a393dfcf65508e79779e64a3821c5b67661732cd9e274d8d45c6717050a65",
+      "word_count": 3912
+    },
+    "1918-Wilson-1": {
+      "parsed_text_sha256": "5bbbcc9816cb4226fabb7f1d4d094a92723880d1bcdca26f1385bc3fdb477eb1",
+      "raw_html_sha256": "e33b34dce372cd9714d2213101af4b4e103b5fc6e47357cb79598347c28b71dd",
+      "word_count": 5464
+    },
+    "1919-Wilson-1": {
+      "parsed_text_sha256": "d1217cd3b1f27b4216b53791ec0722feca66372bbb47f2a04c33e6da1b94778a",
+      "raw_html_sha256": "0e391fb6a1cc8c528d4d1368b0480abe1ef6f66240d8c2df9c66daf53777df73",
+      "word_count": 4755
+    },
+    "1920-Wilson-1": {
+      "parsed_text_sha256": "6aee5256760df2188ca3a903e506158f2c74aff9cf1c13c46602401df8a80a50",
+      "raw_html_sha256": "1838002218b87bd887e05a1ff5e93eeac7bc440c909053b36d1cc9dccf3cd082",
+      "word_count": 2706
+    },
+    "1921-Harding-1": {
+      "parsed_text_sha256": "d9e4065d3a30a48826e8d50ecea5949bb5297c06d3e9ddcb8a3a67df5fdbe08d",
+      "raw_html_sha256": "91192fceb33ede0add9e17763c5b9d00f68f81c1744b542ba8cda5eb129cdee5",
+      "word_count": 5607
+    },
+    "1922-Harding-1": {
+      "parsed_text_sha256": "322d126de1a1aaf099bc6178a289af7092c71e9ffce1f2c295cd7350bf9248f6",
+      "raw_html_sha256": "49edd7bd71b6409b59be4fb8ae42183da9ddfed8e45a80f1b70f3e69281d186e",
+      "word_count": 5745
+    },
+    "1923-Coolidge-1": {
+      "parsed_text_sha256": "29617509eedffd511a929308eba0710961995ed164afaca721193a33683b5024",
+      "raw_html_sha256": "ca3f7194121d5beaec24dc9cdea60dcd2822cdabee27c626412700c382b5cac1",
+      "word_count": 6700
+    },
+    "1924-Coolidge-1": {
+      "parsed_text_sha256": "f901cd42aab6c55a6ae3537a153a1ea4bd7c348e427a175701d85c76daf18cc4",
+      "raw_html_sha256": "00b50ba8af7a4c3dfda9bfa29e8b32092fa1da93127520a85e45bef9ca190dfe",
+      "word_count": 6967
+    },
+    "1925-Coolidge-1": {
+      "parsed_text_sha256": "fa8bdedb7b675e8bf217775dd339be538cc000c58efe90d4b8b7cad39ee6e2ce",
+      "raw_html_sha256": "e37f808d40b47a6d612e2e8a96ee11a899d11d6f277078948d640d4f2dbb14a4",
+      "word_count": 10846
+    },
+    "1926-Coolidge-1": {
+      "parsed_text_sha256": "c8d5acc6c888a9ad6263aca3394a50447ab217262480c73aec87934544befdf2",
+      "raw_html_sha256": "494290bcbec5e9d635646b378b4ecc96dc64f4a417689fd9409a9080e2fc8de7",
+      "word_count": 10310
+    },
+    "1927-Coolidge-1": {
+      "parsed_text_sha256": "ccbfa5a298680fd6c8cd5e0914a9cbb9123bcd1fa107fc65e8f2b230da272bda",
+      "raw_html_sha256": "9ab03564fa8de7fcb7362e1ab53f0533ca864bc94e8bab80807534bdfc0cff81",
+      "word_count": 8777
+    },
+    "1928-Coolidge-1": {
+      "parsed_text_sha256": "8846429e9151eaf91820497b3fc67b5d0712f50c908fad7eae42e82c2a693522",
+      "raw_html_sha256": "0c38d41dfeca1499b6619cf667d4dc93a8fe6085143a1fc3c13c57dcf8775098",
+      "word_count": 8057
+    },
+    "1929-Hoover-1": {
+      "parsed_text_sha256": "a487ea8c8b02c7f242ec6f836a51670eb3fad5966d9d318bac471044ab5fd775",
+      "raw_html_sha256": "5ee90f997368a50d15c58ddf68019519a3ee73d7846b9c13bdb777760530cb03",
+      "word_count": 10995
+    },
+    "1930-Hoover-1": {
+      "parsed_text_sha256": "3ee7c7c40bb60d4ccd6df1ddaf7fbae610c5750751c0cd6fd1258e9bde7d18e9",
+      "raw_html_sha256": "8710958d613d5330a5d7edde0ec10661ae6cc9c8ff5b30226e2392c1168c285d",
+      "word_count": 4542
+    },
+    "1931-Hoover-1": {
+      "parsed_text_sha256": "89f1c1fda0348e259bf13897a0769fd00762be6d7abd130ac9643a1381661fc3",
+      "raw_html_sha256": "eadf3214c028534e3496782c9f74cf1a639ccc0de410553862ac8f021c1f585d",
+      "word_count": 5688
+    },
+    "1932-Hoover-1": {
+      "parsed_text_sha256": "696ac5d73f299d7ef8c900fa1d53330e1c8f99dedb850c743ed0f71eb9f2e120",
+      "raw_html_sha256": "427e2e5834318215f880e8ca072064009d01677e1b98e7c0b9359543b4fd8f8b",
+      "word_count": 4210
+    },
+    "1934-Roosevelt-1": {
+      "parsed_text_sha256": "26f5aa6d0d04e658c1d4d5ff5879068e386074481cf9ec3b41c0763412eb02e3",
+      "raw_html_sha256": "ce0f6a48f457e9caef42f5e7373775c350fb73709515a54a5e63729a0992ddb7",
+      "word_count": 2223
+    },
+    "1935-Roosevelt-1": {
+      "parsed_text_sha256": "1ffd3c9ddbff3be019993da94a9eef111d3253d49376cd68f42fecf6fffe423f",
+      "raw_html_sha256": "2ec8a00be174a000ff9b89936be77b901d86286c3d90df5cf61fdb09a160592a",
+      "word_count": 3517
+    },
+    "1936-Roosevelt-1": {
+      "parsed_text_sha256": "dcb7d32d239522ab80edb3e9179c4ba82ca99dda73594457c8c1d2221d35432e",
+      "raw_html_sha256": "00c594981fe06ddd8e7a4bd5d291f5d16cc2504ce760268a7a6a6c97e793f0cc",
+      "word_count": 3814
+    },
+    "1937-Roosevelt-1": {
+      "parsed_text_sha256": "b1139ce624bb2b60b9e0321ed864e1c1d2565a8db94473d5e659ce6555530a41",
+      "raw_html_sha256": "3778f0827b30d33e3cd40c7ddbcf1df980f66a729984e3870e881d63d7711de3",
+      "word_count": 2730
+    },
+    "1938-Roosevelt-1": {
+      "parsed_text_sha256": "56cfe2c8dcb364f53d065ad76c24f1ba105251b0a14ff7853db38dcd0cdf8931",
+      "raw_html_sha256": "65d27d6caf6fc603ac94f1f84f90fe94d7e522401a7542acfb790010245b2cbc",
+      "word_count": 4677
+    },
+    "1939-Roosevelt-1": {
+      "parsed_text_sha256": "2cda0a514f7de74442060ff3072b63b79a12b994544746fa93ae168535e3d4b9",
+      "raw_html_sha256": "e5a7eb68031e3cf146d0bf0d71beed20ae807a95ff5a4b5b1c49367b6d6e1669",
+      "word_count": 3737
+    },
+    "1940-Roosevelt-1": {
+      "parsed_text_sha256": "701159d0283316eb2f8222e8ffd2a0ff0ad90fdff2f9da237bba3b15026f284b",
+      "raw_html_sha256": "c45aedff914a200a25e865e5074f97965a8d8ecec69c0b4a35a1c2b52fb427aa",
+      "word_count": 3170
+    },
+    "1941-Roosevelt-1": {
+      "parsed_text_sha256": "260ae8c6786fbf5e4d3d488d889d9e222e6fa300223f1ceab98a4003b940bf08",
+      "raw_html_sha256": "71c25cb1475f3a6c17e4c2af00cc465239809ba36c7a8c2d95d9a5513b63cd9c",
+      "word_count": 3285
+    },
+    "1942-Roosevelt-1": {
+      "parsed_text_sha256": "3609b679391fe32224b97db4c352935a55595023db70027a58b07176e3c34c04",
+      "raw_html_sha256": "e9b70781e1277af50db2c9df77f9023aea490566d39b5c93b419f64bd99486e9",
+      "word_count": 3484
+    },
+    "1943-Roosevelt-1": {
+      "parsed_text_sha256": "45bd8d1ff2a6ce06e48cd6378c2ce6471b3dab7543cd11aa98e2cd7037847ff4",
+      "raw_html_sha256": "5b9ed7888e5f88791bd53f84d2e9f849b2bdbf88dd6f35c6e1d2bff5eed6d923",
+      "word_count": 4561
+    },
+    "1944-Roosevelt-1": {
+      "parsed_text_sha256": "c985933b76c4da904d9acab34a4f0020d4266de90336d9cbca678f21603be87b",
+      "raw_html_sha256": "7d5d148e55105df3d2f47c5f04e498ffba84e6ee7f61f957b35e02847630593a",
+      "word_count": 3772
+    },
+    "1945-Roosevelt-1": {
+      "parsed_text_sha256": "296af7cab9126eab6805cfbe880ebcf8fe2d4944fb7a03d0cfe36c175fbfb128",
+      "raw_html_sha256": "c1ba5f88fc56934e0719f10c3b194e57069c7f0338db75ba77dad363f10dc116",
+      "word_count": 8158
+    },
+    "1945-Roosevelt-2": {
+      "parsed_text_sha256": "ee20c880049acdd13e7bd5ada0489124a209a5244316930f68c3da322cc5481f",
+      "raw_html_sha256": "300b567bdc0cb02b059f14d8d09eab10325df909459ccfc2aa3921d7a5372e7c",
+      "word_count": 3141
+    },
+    "1946-Truman-1": {
+      "parsed_text_sha256": "cd9cdab0478449f55586543244e1ef3b44044b023e434bcc48c6010f422c1aab",
+      "raw_html_sha256": "ab9370bd75963db6d9221d0aa15c0ec947558862e5af46735e1755f4eee2191e",
+      "word_count": 27764
+    },
+    "1947-Truman-1": {
+      "parsed_text_sha256": "a12785db05990f12d80453ec668d7ffec3140e858187c4577ca8cfcfb6a2d9b3",
+      "raw_html_sha256": "0ee2287832a3178fa19ed84061626d11c6b41ed358925d949bf1f61508f8fe54",
+      "word_count": 6031
+    },
+    "1948-Truman-1": {
+      "parsed_text_sha256": "79934d1da95270e2a05fccac6169437a70f23f4eb6a449a729049a9d59960695",
+      "raw_html_sha256": "3daa2061970a103d71f2cd0b3b736d9c93424a46b8d4f659416ff786e26369a5",
+      "word_count": 5084
+    },
+    "1949-Truman-1": {
+      "parsed_text_sha256": "5479d66899449560a187f3269ceab319d12b754d92c19a8ba00c156dd27fadf6",
+      "raw_html_sha256": "0550d42e39b2103809d3c0ab3907a389dd62187bb0fb10c35aca65919f03f258",
+      "word_count": 3397
+    },
+    "1950-Truman-1": {
+      "parsed_text_sha256": "2abf40b5c90d3b4dd71cd454bfc490869951b6b0a7148f992f7a236383925a30",
+      "raw_html_sha256": "a8e83371d9731b9634c06cba6f829e298c99ec250a6870da14001dfae9abce57",
+      "word_count": 5126
+    },
+    "1951-Truman-1": {
+      "parsed_text_sha256": "cacaf32d2f8fe569312059fa4de3eac1f71ea9a85dcd0387a28e9b73e083828c",
+      "raw_html_sha256": "83de4073f512350a4498e051295c74f293299e1d567442ba3c49e1c25c211057",
+      "word_count": 3973
+    },
+    "1952-Truman-1": {
+      "parsed_text_sha256": "e915910ced26f41c68f7e62fdceaa9ea896382d3ea4c10105ca91abcbb03ee97",
+      "raw_html_sha256": "43b27271df6d7293aa76d0253f0670cf86939cf143d64f90761e2331362c4ef6",
+      "word_count": 5335
+    },
+    "1953-Eisenhower-1": {
+      "parsed_text_sha256": "08a19c3d552a0a5be488b99a179aefca25ee20f5ebd575bb71612c4be6ca373a",
+      "raw_html_sha256": "9d1dce71d9a7587ea39ffc5ef9ff300f531368bb7928d4747f579b5f01d8ce7a",
+      "word_count": 6945
+    },
+    "1953-Truman-1": {
+      "parsed_text_sha256": "bce6c8742c8722170b3be2fb829d641cca43132a9541f7ecfd98d59236e73b96",
+      "raw_html_sha256": "a057b718475976f070d00981de8baf7e400a4fc7a9a03787b34d661a26a06297",
+      "word_count": 9607
+    },
+    "1954-Eisenhower-1": {
+      "parsed_text_sha256": "646787658d566550f813e1b45d2c90fc89db0d9e095b38d694a7dff32437907f",
+      "raw_html_sha256": "cc4a8b19671c7900b6f9d2c1aefc2a32d6e4d36d8c526dc15f733e562c6dcdc9",
+      "word_count": 5974
+    },
+    "1955-Eisenhower-1": {
+      "parsed_text_sha256": "23c15c1d2dc326874b18f448682fde2932695ce45ec7ade4a6018361660f172a",
+      "raw_html_sha256": "9a926b68c2c8e5c819755ec306521480cc0613acbcdb70e46a668a43c34a6ba1",
+      "word_count": 7237
+    },
+    "1956-Eisenhower-1": {
+      "parsed_text_sha256": "ec91b7e57badf6bb92ac0bfe26c14716465c0016f623e945b371b8ae0b2fbd4a",
+      "raw_html_sha256": "c8873dc311df65c44e879606a55f09547e169840a365a1cd53db7c76cea84c61",
+      "word_count": 8265
+    },
+    "1956-Eisenhower-2": {
+      "parsed_text_sha256": "059dae8d6ed90c103b2514fb4be0b3f697807464a3c1813090cca6c5aee1afbe",
+      "raw_html_sha256": "d4db1076c25bebd044f4c1079ca1d2fd6dca4683b5a4d55f0be4f211ce469c29",
+      "word_count": 1083
+    },
+    "1957-Eisenhower-1": {
+      "parsed_text_sha256": "90778d8fda4a53c653a42ea5528f62c1b33a2eac41db0225671643c4bb3767ab",
+      "raw_html_sha256": "53e1d066c31ae1e9b6eb6e44d858dca682927a936c7bba9fccf4a80eb91de1f3",
+      "word_count": 4132
+    },
+    "1958-Eisenhower-1": {
+      "parsed_text_sha256": "09cfa8d5099ab758db5ab58ecf60a5f184d485360e2dde7402ee07e9d7ea2c81",
+      "raw_html_sha256": "df86ddf75c05f5bd94425c7809a738d50c75cc4750ce02077deb1dc49c6c9caf",
+      "word_count": 4920
+    },
+    "1959-Eisenhower-1": {
+      "parsed_text_sha256": "5681b4ff2b2788349720d9bc4e26b6411cd7dbfcfdd38205b37653277e7edf50",
+      "raw_html_sha256": "8cd7fd8a4b16be35beeb2033b2aada647fb66ffe09d0331888731712a40cf1e4",
+      "word_count": 4956
+    },
+    "1960-Eisenhower-1": {
+      "parsed_text_sha256": "3331353864455400abf3493f7147720505eb3cf18967e55d0c60db6c7ec2b2d2",
+      "raw_html_sha256": "558c41faecec204bed5b6b579306110e788d7a3ba42f40175c917068ce1d790f",
+      "word_count": 5634
+    },
+    "1961-Eisenhower-1": {
+      "parsed_text_sha256": "53df5a6b2bdfe1788589175926ce6b7587b6e7200ac37fa909b2c830f6988dcc",
+      "raw_html_sha256": "0ca8575cad54720cf2526e15340b18e0420412f8c9c5df4fb318c1dc408aef71",
+      "word_count": 6191
+    },
+    "1961-Kennedy-1": {
+      "parsed_text_sha256": "d303beb8cec8870cff3764d346fff8c5cec9915d619f18b411db4efa8750fb86",
+      "raw_html_sha256": "354767b0b61600670c2b8d8f4d13c3952e574b2fcae4cc2624aef2aaf9c61797",
+      "word_count": 5175
+    },
+    "1962-Kennedy-1": {
+      "parsed_text_sha256": "bc174f39b9fdc80b45bcce557173fc5e41a8453dca7a57d00702e76553dd3241",
+      "raw_html_sha256": "f10f1806c6628376b8250272dc32befbc2e3347c6a65d9241ec2be3778297d71",
+      "word_count": 6437
+    },
+    "1963-Kennedy-1": {
+      "parsed_text_sha256": "6737b8703c333182f2dea8de70638ee41fd57dc97ca61c962ba45b8605de5d1f",
+      "raw_html_sha256": "55c8a8159ad7cee45c9f13ed1d6a17ffced1db42be762046461df5cdf0094db5",
+      "word_count": 5335
+    },
+    "1964-Johnson-1": {
+      "parsed_text_sha256": "6acb538f0d73bab2c054a0e541d0a602a2ec2619361e824a677eb8c6f9643dee",
+      "raw_html_sha256": "5c9ebe0d056383d541485d7f2e6325093abdb0ed5ecb3e5fc0bd857c4baaca57",
+      "word_count": 3197
+    },
+    "1965-Johnson-1": {
+      "parsed_text_sha256": "8e67934862e152aa2b54cb41c9dadf067ddb3fbfaf9c33abba009d7b43dd63aa",
+      "raw_html_sha256": "46e7bd6444490ff77ab78fd21330dce6548c7f3da147d4bb9915e475e8333ed6",
+      "word_count": 4407
+    },
+    "1966-Johnson-1": {
+      "parsed_text_sha256": "512cffe2eaef1ace48fe1ae772111b5ba592efe47d57a9d13ec0fd4bc4a3bb89",
+      "raw_html_sha256": "c60cbd0b0997704ae3824eb2c24d027b3e1e8bc0944095266ffbcc56407e43dc",
+      "word_count": 5503
+    },
+    "1967-Johnson-1": {
+      "parsed_text_sha256": "6f69135b4bbd761cb64b1d5c9c6c186a478440b0a21337821f521ff19802a896",
+      "raw_html_sha256": "e41a613d1ec042c74cd74b2e20168f4128b07310b49f76d9061af15664e4ff94",
+      "word_count": 7120
+    },
+    "1968-Johnson-1": {
+      "parsed_text_sha256": "7861d12e39567c3b8b3c4d3f71f9957f3a1f58a46a47233fcb8d251dcf60392d",
+      "raw_html_sha256": "d41abcc8bc5913f733d9e8866b48ad302ce4f0900303857cdc58fcd3305ffa97",
+      "word_count": 4865
+    },
+    "1969-Johnson-1": {
+      "parsed_text_sha256": "a192da8baf0c8c4c7e02bc96dd96dae7c5d803ebc222b6647c83e32a90c2f3b7",
+      "raw_html_sha256": "a5d7c53d79cbee4d31b7f5571e95fe0257016fdb12863eccf7ed6d19839c05d6",
+      "word_count": 4097
+    },
+    "1970-Nixon-1": {
+      "parsed_text_sha256": "41a4ca022f3bb7c568a96647b82dac4edc399ba324edc108cd4c0c3723278897",
+      "raw_html_sha256": "dc40a138d0c7ed2379e09def77a58f374e6be07d5370043fe57c740d51f04d61",
+      "word_count": 4461
+    },
+    "1971-Nixon-1": {
+      "parsed_text_sha256": "95946d5c4e5029c243a4c621f04d2b5e84866e4e21601f9903bb4ba6e9478993",
+      "raw_html_sha256": "84a986bc21e74208851bc1ee3688026ca204e76f2f5afb68b952785349accc88",
+      "word_count": 4466
+    },
+    "1972-Nixon-1": {
+      "parsed_text_sha256": "020243b734db40f6316cc6a867ddf939a8dd921e092e591ed8b2271242fba9d4",
+      "raw_html_sha256": "c80385fc1b013e70d9bff8db74d722f34aab72a245077de41621a1e6c73735bb",
+      "word_count": 3968
+    },
+    "1972-Nixon-2": {
+      "parsed_text_sha256": "7e05fc1b5081ff6f2778f87356b7e281e97beed2b10889c5fa6a4157805a304f",
+      "raw_html_sha256": "4273d553328eba11ca04fa6d090840f2c555272519e65b2c793b7489eb981198",
+      "word_count": 17147
+    },
+    "1973-Nixon-1": {
+      "parsed_text_sha256": "92622a993a9f8f36a9733d541aeb2b1510d45bf7fbd52bd884a951d164dbcb99",
+      "raw_html_sha256": "37a0fc405fd3f847e409aec41a751e5456a13c4c4201c7f1542255fe263e8900",
+      "word_count": 1657
+    },
+    "1973-Nixon-10": {
+      "parsed_text_sha256": "fc989cb16184d42334311be81d7f4f414c4a244a0a408174070b79ab7d05948b",
+      "raw_html_sha256": "9fbcdba6255d009525502ff7447d269a68a9daf8cbe5e61818cf40a9b3f66e86",
+      "word_count": 2063
+    },
+    "1973-Nixon-11": {
+      "parsed_text_sha256": "08fedaad4bfab4de4dfa07e80d036ad9bb9e83250e1eb78514159e5494ce1c2e",
+      "raw_html_sha256": "9b42c613e8437cd2e07f5f59e6a96744cb39864dc74c1092c59c6902627a0cc5",
+      "word_count": 5405
+    },
+    "1973-Nixon-2": {
+      "parsed_text_sha256": "a0c48759d11d23b2a04ad8ac55e3faaa7cf3fa4185611a597b500702bceb1dfb",
+      "raw_html_sha256": "df34ad35b22cb5a60301f025a1adab5dae51d2e8435ed3f001cac477414976af",
+      "word_count": 1747
+    },
+    "1973-Nixon-3": {
+      "parsed_text_sha256": "b4d8927349f652e7d7e1e105a0ccce7a5a6b4edf24f282c453783792e626f0fc",
+      "raw_html_sha256": "4e5e2e5bb6d9f00407a5261a5be3ed2acc3de5885420b337364e81f0a03e66df",
+      "word_count": 4457
+    },
+    "1973-Nixon-4": {
+      "parsed_text_sha256": "6b3b40df12d736301aa3920125c75aa060a7f55fb8a1e8c7df5ac8bcb859e1ae",
+      "raw_html_sha256": "d1e9fe0ff652edad20878d25b0c45cd46b9f6b0d37761c4df1f77206b057fd3d",
+      "word_count": 2057
+    },
+    "1973-Nixon-5": {
+      "parsed_text_sha256": "4834b9d5bb9eaaad1ae6087b4e80d3bc413bde81cc5ef3c3ea690daf45fac31e",
+      "raw_html_sha256": "1a0386063ac2f66e0c93ef056dffb829708ed0feb237f10e77697327aa38eea7",
+      "word_count": 3885
+    },
+    "1973-Nixon-6": {
+      "parsed_text_sha256": "48dd1be0740ef78f7d76ae115869a37d30a357ca5117be281d70a7c4436c00d5",
+      "raw_html_sha256": "e546151e62fdc88e7bb2e85fdb8dcf719464749bd8e1dfce16ce4c2c90cbe909",
+      "word_count": 1891
+    },
+    "1973-Nixon-7": {
+      "parsed_text_sha256": "62bf302b25d8516b9ae20a87a1a42277208ed5758cc6e1e953362d057d36fa71",
+      "raw_html_sha256": "bebf06b41e20363afeeef2c1cf3c9b2258234f624ded90f46083443560dbb3da",
+      "word_count": 7364
+    },
+    "1973-Nixon-8": {
+      "parsed_text_sha256": "e76ce3cec6951686afd5ad56b5a93bbfaf73920ecbb9bdb248cd3a623c8b7725",
+      "raw_html_sha256": "74d05e6f6c84110360fd75ea3c1d77eb822444a72b5ecc14f575190d9242ec50",
+      "word_count": 1728
+    },
+    "1973-Nixon-9": {
+      "parsed_text_sha256": "5322ee11c6ab329524865e29c366a57b26e9d8245e18b9eb28045decab2ca265",
+      "raw_html_sha256": "2e3e83fb07cd926e41a06f92b7b2e3436fa4aeaf9a37e6a5d36db0196945094c",
+      "word_count": 4204
+    },
+    "1974-Nixon-1": {
+      "parsed_text_sha256": "0371850e5d8313929c9ef4d63cc1e82cdc57ffcd71717c9f2df5c84e73e2d339",
+      "raw_html_sha256": "0977b356f7f5106ecc2ae4e76f0e87ade317a507d18ce02b5ce1fa49fb61b9b9",
+      "word_count": 5171
+    },
+    "1974-Nixon-2": {
+      "parsed_text_sha256": "30146bce4631e1c8febfade61c4f105165ab226a86a966032b3d69d7307cbd9f",
+      "raw_html_sha256": "45496be55d37618ef32d8b14dc31bd81c89fbf4f1dcc1827e61f78cb34a6ccb4",
+      "word_count": 22229
+    },
+    "1975-Ford-1": {
+      "parsed_text_sha256": "eb55e0419a99688f5dd636ebb4ec512d173446197a281d688e8cd2fa73e3a766",
+      "raw_html_sha256": "bec1f16a0210da1f8780076e030944dfe5dba579a548e59b81c267a0b61e59c5",
+      "word_count": 4112
+    },
+    "1976-Ford-1": {
+      "parsed_text_sha256": "ab8488034802a0c46016d915374793506bf2f66dd26e2973e9d3d503f99be27a",
+      "raw_html_sha256": "3da2f2067c5d56eb30432940bd30538a9da0fd999c2e673e0447a5a1925ab4ad",
+      "word_count": 4952
+    },
+    "1977-Ford-1": {
+      "parsed_text_sha256": "525dc334a6237d4e7b3e73e0380ab816906e0a62bed3ccfc99faf4049ddd33f6",
+      "raw_html_sha256": "855c7635534bb40c97c23ddeff2a7bc0eb17984203112345dba8a230983ba8dc",
+      "word_count": 4706
+    },
+    "1978-Carter-1": {
+      "parsed_text_sha256": "7e0a4ed214f9ebdff77058623f3e304e98c94dc14a3cb72d55be3e942e3418aa",
+      "raw_html_sha256": "9a2d84ace6e7407f583e4fbe1adab4a0b427436b2d258fef92b429c8feece19b",
+      "word_count": 4561
+    },
+    "1978-Carter-2": {
+      "parsed_text_sha256": "fef2932357e358ee653f5c0fe182008c80441df79cd950788ee5d20fc5b55090",
+      "raw_html_sha256": "11a1be88f12e7eb372de63eea3a90a5bd8553ee23b06c7f69f7c68b0abb054ee",
+      "word_count": 12074
+    },
+    "1979-Carter-1": {
+      "parsed_text_sha256": "7fcff13f9c69a6a43893d70985d7561d8053cea09ddbec2577644b119d808412",
+      "raw_html_sha256": "7ecb202fc31bc0f2b76722205c663d543af5b136dea4981a5b57dd827ff6aa83",
+      "word_count": 3258
+    },
+    "1979-Carter-2": {
+      "parsed_text_sha256": "97ef4c77dd07d6b6f167fc1b0e371c193c0259fc622f2d41aaead72fa88f43d3",
+      "raw_html_sha256": "761b1bc1c772f6f588dc92980c83b1a3a4ececd028ca3ce3fc174d1e77ae3163",
+      "word_count": 21528
+    },
+    "1980-Carter-1": {
+      "parsed_text_sha256": "1d7e12d87efd9f989fb16b3f82176127299a96ab7ad8c7e81a040235d99365ef",
+      "raw_html_sha256": "00891ec17e47d44c7e6368096a36ede5253072bfa4ea36c515e7c41f1cdc83a3",
+      "word_count": 33426
+    },
+    "1980-Carter-2": {
+      "parsed_text_sha256": "cdc19b6e594be2eda93162a43a3c1c4f67b488bf2fa49733a2d4d9bceffc0219",
+      "raw_html_sha256": "cc741b3aff17f69d93fedbb840784a546c0e829da1b903c17645eff167e971d4",
+      "word_count": 3455
+    },
+    "1981-Carter-1": {
+      "parsed_text_sha256": "87e98ae8e264d9e79a48003f2926b3004e3d10297bc39d6f5f1aa9c4d81c99cc",
+      "raw_html_sha256": "056028e93b5926bf24b3e7a64023b372afdf9bf77dbc7d0c3fefef0642621bab",
+      "word_count": 33797
+    },
+    "1982-Reagan-1": {
+      "parsed_text_sha256": "0e34f31f8a86fa929f29fdac9a8e48b1944d826e60d9f4fdae68d49a4e830579",
+      "raw_html_sha256": "eba810dfe4e4f1e4e6dc8ec2219caccb4a9bc168b46485165562279a7361699e",
+      "word_count": 5158
+    },
+    "1983-Reagan-1": {
+      "parsed_text_sha256": "886427598754fd7469428dc94fe313c915efe621a810246ddc4e567b615461e2",
+      "raw_html_sha256": "a912f8c897a504991e347b9cb520240b5ff6dd28f4489229aaf7309f557f4956",
+      "word_count": 5536
+    },
+    "1984-Reagan-1": {
+      "parsed_text_sha256": "900b1303674fb16e236c51b74a2efa5b3b01dce0bedefbe7ae552eeeac1ee9e2",
+      "raw_html_sha256": "f2df947f4cedb6d22c57a0659486ed8a51e970479375e47b03cf9b8cacea5451",
+      "word_count": 4944
+    },
+    "1985-Reagan-1": {
+      "parsed_text_sha256": "c0fe0f4028bb4394cf702b6d84bb9c9aeb27131551d2288e4d8bc0b179588d89",
+      "raw_html_sha256": "e9b4cb00d8969687cf9d747ca7d8909a662d5f064437f4eafc15696f7a65b636",
+      "word_count": 4213
+    },
+    "1986-Reagan-1": {
+      "parsed_text_sha256": "435b66f38c48690e38226ef57d8e40b8248ca28cec6fac036a0c308ef2bf2e1d",
+      "raw_html_sha256": "d134529da97d371b76a083837e9bc75283dd93edd0e110c9302e30e71c34ce05",
+      "word_count": 3473
+    },
+    "1987-Reagan-1": {
+      "parsed_text_sha256": "159279d390d15e592964aa890da160ae139f48c04d47f9dc4514c65cff5773c0",
+      "raw_html_sha256": "4169a1ad2c0c61ed68d4df6e897fad26b9f545e6d46e533c82c09b18367b2f1d",
+      "word_count": 3770
+    },
+    "1988-Reagan-1": {
+      "parsed_text_sha256": "56f00f231c2f347337da5515a404317e67d14fa008dcf2301731b83fb2e78e17",
+      "raw_html_sha256": "8abc06c1aa135d7a0c9812e0738256fd3e74d0e548501501254eabca695bfe6d",
+      "word_count": 4826
+    },
+    "1990-Bush-1": {
+      "parsed_text_sha256": "77a4ab40f48f6af87e41779f31c9df5f18d6d3ca38287f5af06de0762a44f169",
+      "raw_html_sha256": "d897e0a0d956c7f58a155a0664d7d3dbf81a3e4d8fc04d1156bee2fccf40c84a",
+      "word_count": 3811
+    },
+    "1991-Bush-1": {
+      "parsed_text_sha256": "ad96253deb6ea0ce037f5ed1545dd66ed55c29ab899a260ec473f3dd7c08904e",
+      "raw_html_sha256": "3d66dbc849f8c3929d787ddf5a7011ffec83cae210f7fd3ab75e0a09d3ab3cec",
+      "word_count": 3968
+    },
+    "1992-Bush-1": {
+      "parsed_text_sha256": "54bcf3f2acb21455ffdd7234d0b5f9cdf8601dcb4d915049b76e5c31104426c2",
+      "raw_html_sha256": "a37591820d0f6b9be99d4b0e91cb7230d137cb93e598199d6de3d202907f3b5c",
+      "word_count": 5082
+    },
+    "1994-Clinton-1": {
+      "parsed_text_sha256": "8a95206ed52f883a045044d3e89da9753542a7099cce71f52673baadfcb68a05",
+      "raw_html_sha256": "ceb4a7f16065b5ed47ea5a9aaef4be82060d113ebbfcade73b4c29e967c97837",
+      "word_count": 7378
+    },
+    "1995-Clinton-1": {
+      "parsed_text_sha256": "1831b172adf101e57c7d12024925489ce578855ab770f24d5962d7a1993c5afb",
+      "raw_html_sha256": "79f508ff4ea6c06177c257866ef36897707980098b6ff892e75ec00a10858684",
+      "word_count": 9173
+    },
+    "1996-Clinton-1": {
+      "parsed_text_sha256": "edbd169bb11b96146424349c35e926b7f54f9435b50db3d30a5142609e48a2d5",
+      "raw_html_sha256": "12b2f6205ad4fe45a2c63e6a3f81902accc3e96250a97db95d607af5959f4a3c",
+      "word_count": 6328
+    },
+    "1997-Clinton-1": {
+      "parsed_text_sha256": "9e40b4affd18854892138a4119d27f076b15c092e776e4060ee6aa534d6f7a62",
+      "raw_html_sha256": "e698598147cc593a4c8ec2f2b1df2fb2c23526d640ef548c1e9afd522fd8094a",
+      "word_count": 6749
+    },
+    "1998-Clinton-1": {
+      "parsed_text_sha256": "d8b2dae305bc7dace4bc9887974a68d39dfc33490d6f8967185c1ad89b094339",
+      "raw_html_sha256": "bf407cd8b0e2a067b50e6e471dd02d5706b58d65f628f0fc3d654efd6df3a6be",
+      "word_count": 7277
+    },
+    "1999-Clinton-1": {
+      "parsed_text_sha256": "ebdc85743a820b91ca2ce3dc885aa4d0bed6987e242705cf18294817c0caddb7",
+      "raw_html_sha256": "9f8e0c28a68100126fd00e2655a513ecf9b5e9a13c87fe392c664c725fa5c55c",
+      "word_count": 7475
+    },
+    "2000-Clinton-1": {
+      "parsed_text_sha256": "fdfdc2009a0d91d9d9c4593a06642fb7c5cc55efc77967c5103e924be3870b99",
+      "raw_html_sha256": "3f9739969eeb6964157252cecc5af2286456ed1093b1cc3508c78e777aeee68d",
+      "word_count": 9052
+    },
+    "2002-Bush-1": {
+      "parsed_text_sha256": "6407e938de87d797c6974836959d9b4d59397eb6688ac582aaf017a7b393e989",
+      "raw_html_sha256": "1bc6f494960b3d00ec556298ee320aa3c391b35a92088c263d8dabedb3438422",
+      "word_count": 3825
+    },
+    "2003-Bush-1": {
+      "parsed_text_sha256": "56ac946e4806726eef0f821890bfb802bcdab64015b36c453dc645172fe8ffc2",
+      "raw_html_sha256": "aaff0fa4fb16e0f0833d405462062b4314079ed5fcb4c07f8575f77359d690b4",
+      "word_count": 5368
+    },
+    "2004-Bush-1": {
+      "parsed_text_sha256": "eed8d1bd3d6b4ef012281616a8e582d13343795f6059726d64336e690421a638",
+      "raw_html_sha256": "53e7a010bd6ab5a38d05795d6fd81818ac1da582e137da7d959959404f722750",
+      "word_count": 5167
+    },
+    "2005-Bush-1": {
+      "parsed_text_sha256": "d58878c550d3938db96e888852701c8b199c4c85b55093ae08f596e8b475d559",
+      "raw_html_sha256": "875b96a82716cf66ae8b8a09956137fe3e3fb77f1cb07543affb26f8f6e86d2c",
+      "word_count": 5045
+    },
+    "2006-Bush-1": {
+      "parsed_text_sha256": "4f5cd8e42d80ba650feda8a375241feadd9e24d5cdbf89406138e31415bc962c",
+      "raw_html_sha256": "31dc37ebd02bd5afd2e21170afebb208b6294fb133bbd3be9cbd1dfa1e38c963",
+      "word_count": 5287
+    },
+    "2007-Bush-1": {
+      "parsed_text_sha256": "32c7a13153a3720c36f8ea0caebae34eabf37ea29a4b80068deb86ca08c3911f",
+      "raw_html_sha256": "d0387b3cfd2c429b9104ab25574bc690dd738871d58c61c54b590f6bd03abb05",
+      "word_count": 5552
+    },
+    "2008-Bush-1": {
+      "parsed_text_sha256": "ce5c89e4ca19ffc16c1d3a436c6aa45a232f03a239f8475eb5403cecc7b8802d",
+      "raw_html_sha256": "7d499fc58d458146faf778343fd28b69ed30c02cd38e90516ec6699bff8fa43c",
+      "word_count": 5704
+    },
+    "2010-Obama-1": {
+      "parsed_text_sha256": "3d9db734ad504f0b047913702cc3facb62408d8860df4430181d1da4304dcc65",
+      "raw_html_sha256": "cd23e02a09c2371e20382587f7a00c6daa0c63e96e3b5ec1a62bb86e59b9e8cb",
+      "word_count": 7221
+    },
+    "2011-Obama-1": {
+      "parsed_text_sha256": "c3e8f8252cb1d4554a3f8c88884142399d3a2414f43ba42f175a4b279b460dfd",
+      "raw_html_sha256": "83567c3a7aae6b1fe7d95156eeff48b4244b6e17667931db4121f38e1a06989c",
+      "word_count": 6867
+    },
+    "2012-Obama-1": {
+      "parsed_text_sha256": "9485034721964c4c73c6ecb9ffc2934319473c6811cea1ad2c249e5fe5c6f5e0",
+      "raw_html_sha256": "8869b034d351d945ad5e63a995a44fdb8b63b6d5fdfc5ef4e7c2a0389eba6283",
+      "word_count": 7018
+    },
+    "2013-Obama-1": {
+      "parsed_text_sha256": "a963af6ad4c201603ba5262ba8b06b6b68f3750ee19ecec45bcb68ab83581ede",
+      "raw_html_sha256": "7be5ecc672f89c68139359e7aa65bc60a0a9e22a762ee0844d6a8438db47378a",
+      "word_count": 6783
+    },
+    "2014-Obama-1": {
+      "parsed_text_sha256": "805d706980a2cc43370b3f1655408346922dd9b45eed1c288aae2dd9f1b6ff08",
+      "raw_html_sha256": "9a84dead6fd422e67877fb724c4e63cb8c5a1cd4baa154b6b720edcbe660fdce",
+      "word_count": 6987
+    },
+    "2015-Obama-1": {
+      "parsed_text_sha256": "9b488088042885a4d38bac88b1f583901b20c6e95f6d522e7c68a35093e79aa1",
+      "raw_html_sha256": "95e2a622a6c743a2663d61ec65cf6e6297f93e89f1245d57e690bc92a2f5b185",
+      "word_count": 6748
+    },
+    "2016-Obama-1": {
+      "parsed_text_sha256": "f40d262f7a124674ce568f31a4032783d8347bf87269081364423b0b2ec5e9ff",
+      "raw_html_sha256": "80a64f8407575eb3048358e63feac2a79a0fdb2f602164e8c945b659beec8faf",
+      "word_count": 6025
+    },
+    "2018-Trump-1": {
+      "parsed_text_sha256": "c16565e78ec4aab231b51b0f08faa8766aae369b4bc6cadbd9f54f546302a666",
+      "raw_html_sha256": "1c44526959923b55e730091257c2618a9e99c6918fe997653029dc6d561563e8",
+      "word_count": 5830
+    },
+    "2019-Trump-1": {
+      "parsed_text_sha256": "4a45fcb129e64a327fce3f86c36d83cf612c3d62e71ed84fb6eb45f6ae205270",
+      "raw_html_sha256": "c7b6aeb3042384d1c642f57e7915cb059e2f4230efa9bb7fea47114730991108",
+      "word_count": 5627
+    },
+    "2020-Trump-1": {
+      "parsed_text_sha256": "233c46baa0fc0ebc500e1e64a025bddbbeff4fe1441fb064ea51c14c5b1037eb",
+      "raw_html_sha256": "1444f0f2119f41357183f81e88ee9090c5bec8f546d2fcd80bccdd935c14afe8",
+      "word_count": 6277
+    },
+    "2022-Biden-1": {
+      "parsed_text_sha256": "14411c6e38a51de054c39bee2bcfada699b1009b1b59b82d5d64a1ad94ee377e",
+      "raw_html_sha256": "c8a5073533f85e9f26befab95a63b8a7a8958c8b1c90a1b0d79cb134c10a7e04",
+      "word_count": 7665
+    },
+    "2023-Biden-1": {
+      "parsed_text_sha256": "f8f86982ec24ee64b3683a751aa64a46590ab08009e5a4e0eb266cde5179c535",
+      "raw_html_sha256": "285245449f10a519c456dcfda8ee245296d0807f6f27fe5ea0d6eb36ca362d83",
+      "word_count": 9231
+    },
+    "2024-Biden-1": {
+      "parsed_text_sha256": "49bfe893a36415825c9491050022f3cb438a5209d7317678c481a93906e39a71",
+      "raw_html_sha256": "bf8625773148ea2fb9746a7f4758ed0760fe36878b0887524fb971b363f6a3b6",
+      "word_count": 8271
+    },
+    "2026-Trump-1": {
+      "parsed_text_sha256": "888d6d77ab0e283fd6ceffd2c2d7f03e4731178654234b19d0ad650f92ca20ad",
+      "raw_html_sha256": "a3fc8e239347aba52f8d96926b4c7a2fc4fa4819682044c4a7db55a1bbb97b11",
+      "word_count": 10748
+    }
+  }
+}
