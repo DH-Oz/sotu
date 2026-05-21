@@ -45,7 +45,7 @@ dependencies = [
 Homepage = "https://github.com/DH-Oz/sotu"
 Repository = "https://github.com/DH-Oz/sotu"
 Issues = "https://github.com/DH-Oz/sotu/issues"
-"Source Archive (UCSB American Presidency Project)" = "https://www.presidency.ucsb.edu/"
+"Source Archive (UCSB)" = "https://www.presidency.ucsb.edu/"
 
 [project.optional-dependencies]
 dev = [
